@@ -1,0 +1,2055 @@
+{
+	"Gallery": [
+		{
+			"name": "2014 earthrebirth - The Seven Fires Prophesy",
+			"year": "2014",
+			"id": "2014",
+			"painting": [
+				{
+					"id": "140000",
+					"title": "1st Fire - Finding Home",
+					"media": "Acrylic on Birch with nest, antler, beads, rose, shells, wood, seed pod and feather",
+					"width": "48",
+					"height": "24",
+					"price": "3,700",
+					"image": "images/2014images/1st Fire - Finding Home.jpg",
+					"thumb": "images/2014thumbs/th1st Fire - Finding Home.jpg"
+				},
+				{
+					"id": "140001",
+					"title": "2nd Fire - Back to The Traditions",
+					"media": "Acrylic on Oak with beads sewn nest, beads and stone",
+					"width": "48",
+					"height": "24",
+					"price": "3,700",
+					"image": "images/2014images/2nd Fire - Back to The Traditions.jpg",
+					"thumb": "images/2014thumbs/th2nd Fire - Back to The Traditions.jpg"
+				},
+				{
+					"id": "140002",
+					"title": "3rd Fire - Rising Up With Turtle",
+					"media": "Acrylic on Spruce with shells and beads",
+					"width": "68",
+					"height": "13",
+					"price": "2,840",
+					"image": "images/2014images/3rd Fire - Rising Up With Turtle.jpg",
+					"thumb": "images/2014thumbs/th3rd Fire - Rising Up With Turtle.jpg"
+				},
+				{
+					"id": "140003",
+					"title": "4th Fire - Hunting Windigo",
+					"media": "Acrylic on Spruce with beads and feathers",
+					"width": "48",
+					"height": "24",
+					"price": "3,700",
+					"image": "images/2014images/4th Fire - Hunting Windigo.jpg",
+					"thumb": "images/2014thumbs/th4th Fire - Hunting Windigo.jpg"
+				},
+				{
+					"id": "140004",
+					"title": "4th Fire - One of Peace One of Struggle",
+					"media": "Acrylic on Birch",
+					"width": "16",
+					"height": "48",
+					"price": "2,500",
+					"image": "images/2014images/4th Fire - One of Peace One of Struggle.jpg",
+					"thumb": "images/2014thumbs/th4th Fire - One of Peace One of Struggle.jpg"
+				},
+				{
+					"id": "140005",
+					"title": "4th Fire - If The Rivers Run With Poison And Fish Become Unfit To Eat",
+					"media": "Acrylic on Fir",
+					"width": "18",
+					"height": "12",
+					"price": "620",
+					"image": "images/2014images/4th Fire - If The Rivers Run With Poison.jpg",
+					"thumb": "images/2014thumbs/th4th Fire - If The Rivers Run With Poison.jpg"
+				},
+				{
+					"id": "140006",
+					"title": "5th Fire - Fracking Bones of a Culture",
+					"media": "Acrylic on Birch with beads and vertabra",
+					"width": "24",
+					"height": "24",
+					"price": "1,850",
+					"image": "images/2014images/5th Fire - Fracking Bones of a Culture.jpg",
+					"thumb": "images/2014thumbs/th5th Fire - Fracking Bones of a Culture.jpg"
+				},
+				{
+					"id": "140007",
+					"title": "5th Fire - O Kanata - We Are A Village Rising INM",
+					"media": "Acrylic on Spruce with megis shell",
+					"width": "48",
+					"height": "24",
+					"price": "3,700",
+					"image": "images/2014images/5th Fire - O Kanata - We Are A Village Rising INM.jpg",
+					"thumb": "images/2014thumbs/th5th Fire - O Kanata - We Are A Village Rising INM.jpg"
+				},
+				{
+					"id": "140008",
+					"title": "6th Fire - Creation Tears  Tides and Moon Times",
+					"media": "Acrylic on Pine with beads and shells",
+					"width": "11",
+					"height": "31",
+					"price": "1,098",
+					"image": "images/2014images/6th Fire - Creation Tears  Tides and Moon Times.jpg",
+					"thumb": "images/2014thumbs/th6th Fire - Creation Tears  Tides and Moon Times.jpg"
+				},
+				{
+					"id": "140009",
+					"title": "6th Fire - Generations of Empty Arms",
+					"media": "Acrylic on Fir",
+					"width": "23",
+					"height": "35",
+					"price": "2,590",
+					"image": "images/2014images/6th Fire - Generations of Empty Arms.jpg",
+					"thumb": "images/2014thumbs/th6th Fire - Generations of Empty Arms.jpg"
+				},
+				{
+					"id": "140010",
+					"title": "6th Fire - The Abomination of Creation",
+					"media": "Acrylic on Birch with organic white corn sister and beads",
+					"width": "18",
+					"height": "18",
+					"price": "1,040",
+					"image": "images/2014images/6th Fire - The Abomination of Creation.jpg",
+					"thumb": "images/2014thumbs/th6th Fire - The Abomination of Creation.jpg"
+				},
+				{
+					"id": "140011",
+					"title": "6th Fire - Windigo Eats His Own",
+					"media": "Acrylic on Birch with jaw bones and beads",
+					"width": "24",
+					"height": "24",
+					"price": "1,850",
+					"image": "images/2014images/6th Fire - Windigo Eats His Own.jpg",
+					"thumb": "images/2014thumbs/th6th Fire - Windigo Eats His Own.jpg"
+				},
+				{
+					"id": "140012",
+					"title": "7th Fire - Retracing Their Steps",
+					"media": "Acrylic on Pine",
+					"width": "32",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2014images/7th Fire - Retracing Steps.jpg",
+					"thumb": "images/2014thumbs/th7th Fire - Retracing Steps.jpg"
+				},
+				{
+					"id": "140013",
+					"title": "7th Fire - Awaking After The Great Sleep",
+					"media": "Acrylic on Birch with beads",
+					"width": "24",
+					"height": "24",
+					"price": "1,850",
+					"image": "images/2014images/7th Fire - Awaking After The Great Sleep.jpg",
+					"thumb": "images/2014thumbs/th7th Fire - Awaking After The Great Sleep.jpg"
+				},
+				{
+					"id": "140014",
+					"title": "7th Fire - Rebirth of a Nation",
+					"media": "Acrylic on Birch with white sage, beads, tobacco and butterflies",
+					"width": "24",
+					"height": "24",
+					"price": "1,850",
+					"image": "images/2014images/7th Fire - Rebirth of a Nation.jpg",
+					"thumb": "images/2014thumbs/th7th Fire - Rebirth of a Nation.jpg"
+				},
+				{
+					"id": "140015",
+					"title": "8th Fire - Bee Medicine",
+					"media": "Acrylic on Birch with hive, shell, seed, feather and seed pod",
+					"width": "24",
+					"height": "24",
+					"price": "1,850",
+					"image": "images/2014images/8th Fire - Bee Medicine.jpg",
+					"thumb": "images/2014thumbs/th8th Fire - Bee Medicine.jpg"
+				},
+				{
+					"id": "140016",
+					"title": "8th Fire - Saving Seeds",
+					"media": "Acrylic on Fir with beads",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"image": "images/2014images/8th Fire - Saving Seeds.jpg",
+					"thumb": "images/2014thumbs/th8th Fire - Saving Seeds.jpg"
+				},
+				{
+					"id": "140017",
+					"title": "8th Fire - Seed Blown Prayers",
+					"media": "Acrylic on Birch with beads",
+					"width": "24",
+					"height": "24",
+					"price": "1,850",
+					"image": "images/2014images/8th Fire - Seed Blown Prayers.jpg",
+					"thumb": "images/2014thumbs/th8th Fire - Seed Blown Prayers.jpg"
+				},
+				{
+					"id": "140018",
+					"title": "8th Fire - Mending A Mother In The Language of The Dear (Dyptich)",
+					"media": "Acrylic on Birch with rose, beads, insects, leather strips, shell, sage, cedar, tobacco and sweetgrass",
+					"width": "35",
+					"height": "24",
+					"price": "2,800",
+					"image": "images/2014images/8th Fire - Mending A Mother In The Language of The Dear - Dyptich.jpg",
+					"thumb": "images/2014thumbs/th8th Fire - Mending A Mother In The Language of The Dear - Dyptich.jpg"
+				}
+			]
+		},
+		{
+			"name": "2010 Nibi~Anishinabe Kwewag",
+			"year": "2010",
+			"id": "2010",
+			"painting": [
+				{
+					"id": "100000",
+					"title": "She Holds Them All",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"image": "images/2010images/web-She-Holds-Them-All-72dpi_000.jpg",
+					"thumb": "images/2010thumbs/thsheholdsthemall_003.jpg"
+				},
+				{
+					"id": "100001",
+					"title": "Anishinabe ~ Echos of Creation",
+					"media": "Acrylic on Fir",
+					"width": "48",
+					"height": "48",
+					"price": "7,500",
+					"image": "images/2010images/AnishinabeEchoesofCreation22small.jpg",
+					"thumb": "images/2010thumbs/thanishinaawbecreationstories_005.jpg"
+				},
+				{
+					"id": "100002",
+					"title": "Anishinabe Kwewag",
+					"media": "Acrylic on  Fir",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"image": "images/2010images/Anishinabekwe 800pix100 dpi.jpg",
+					"thumb": "images/2010thumbs/thanishinawbekwe2_004.jpg"
+				},
+				{
+					"id": "100003",
+					"title": "A Slice Of Water",
+					"media": "Acrylic on Pine",
+					"width": "6",
+					"height": "45",
+					"price": "860",
+					"image": "images/2010images/A-Slice-of-Water-300dpi.jpg",
+					"thumb": "images/2010thumbs/thasliceofwateredsky2_004.jpg"
+				},
+				{
+					"id": "100004",
+					"title": "Dancing For Our Grandchildren",
+					"media": "Acrylic on Spruce",
+					"width": "16",
+					"height": "48",
+					"price": "7,500",
+					"image": "images/2010images/Dancing-For-Our-Grandchildren-newweb100dpi.jpg",
+					"thumb": "images/2010thumbs/thdancingforourgrandchildren_004.jpg"
+				},
+				{
+					"id": "100005",
+					"title": "Dancing Into Balance",
+					"media": "Acrylic on Birch",
+					"width": "48",
+					"height": "19",
+					"price": "3,000",
+					"image": "images/2010images/web-Dancing-Into-Balance-Glorious-and-Free8x2-300dpi_000.jpg",
+					"thumb": "images/2010thumbs/thdancingintobalance_003.jpg"
+				},
+				{
+					"id": "100006",
+					"title": "Facing The Future By Learning The Past",
+					"media": "Acrylic on Birch",
+					"width": "10",
+					"height": "14",
+					"price": "450",
+					"image": "images/2010images/web-Facing-The-Future-by-Learning-The-Past-4x5-300dpi_000.jpg",
+					"thumb": "images/2010thumbs/thfacingthefuturebylearningthepast_003.jpg"
+				},
+				{
+					"id": "100007",
+					"title": "Flying Home On Beads of The Traded Past",
+					"media": "Acrylic on Fir with Beads",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"image": "images/2010images/FlyingHomeonBeadsoftheTradedPast8x3300dpi.jpg",
+					"thumb": "images/2010thumbs/thflyinghomeonbeadsofthetradedpast_004.jpg"
+				},
+				{
+					"id": "100008",
+					"title": "Hiding",
+					"media": "Acrylic on Birch",
+					"width": "14",
+					"height": "10",
+					"price": "sold",
+					"image": "images/2010images/web-Hiding-8x5-300dpi.jpg",
+					"thumb": "images/2010thumbs/thhiding_003.jpg"
+				},
+				{
+					"id": "100009",
+					"title": "Holding On",
+					"media": "Acrylic on Oak",
+					"width": "16",
+					"height": "48.5",
+					"price": "2,500",
+					"image": "images/2010images/web-Holding-On-we-see-thee-rise-3x9-300dpi-horizontal.jpg",
+					"thumb": "images/2010thumbs/thholdingontoinstinct_003.jpg"
+				},
+				{
+					"id": "100010",
+					"title": "Keepers Of New Knowledge",
+					"media": "Acrylic on Birch",
+					"width": "39",
+					"height": "8.5",
+					"price": "1,060",
+					"image": "images/2010images/web-Keepers-of-New-Knowledge-8x2-300dpi.jpg",
+					"thumb": "images/2010thumbs/thkeepersofnewknowledge_003.jpg"
+				},
+				{
+					"id": "100011",
+					"title": "Ma en gun Swims",
+					"media": "Acrylic on Fir",
+					"width": "15",
+					"height": "40",
+					"price": "1,900",
+					"image": "images/2010images/web-Ma-en-gun-Swims-3x7-300dpi.jpg",
+					"thumb": "images/2010thumbs/thmaengunswims.jpg"
+				},
+				{
+					"id": "100012",
+					"title": "Mukwa Geezis Bear Moon",
+					"media": "Acrylic on Spruce",
+					"width": "8",
+					"height": "5",
+					"price": "130",
+					"image": "images/2010images/webMakwa-Geezis-Coming-Home-72dpi_000.jpg",
+					"thumb": "images/2010thumbs/thmakwageezisbearmoon2_003.jpg"
+				},
+				{
+					"id": "100013",
+					"title": "Medicine Teachings",
+					"media": "Acrylic on Spruce",
+					"width": "9",
+					"height": "11",
+					"price": "320",
+					"image": "images/2010images/web-Medicine-Teachings-6x7-300dpi.jpg",
+					"thumb": "images/2010thumbs/thmedicineteachings_003.jpg"
+				},
+				{
+					"id": "100014",
+					"title": "Migration Of The Soul",
+					"media": "Acrylic on Spruce with Megis Shell",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"image": "images/2010images/web-Migration-of-the-Soul-300dpi_001.jpg",
+					"thumb": "images/2010thumbs/thmigrationofthesoul2_003.jpg"
+				},
+				{
+					"id": "100015",
+					"title": "Moon In His Eyes",
+					"media": "Acrylic on Spruce",
+					"width": "6",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2010images/web-Moon-In-His-Eyes-2-72dpi.jpg",
+					"thumb": "images/2010thumbs/thmooninhiseyes-2-_001.jpg"
+				},
+				{
+					"id": "100016",
+					"title": "Spirit On The Water",
+					"media": "Acrylic on Fir",
+					"width": "5.5",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2010images/web-Spirit-on-the-Water-6x8-300dpi.jpg",
+					"thumb": "images/2010thumbs/thspiritonthewater_003.jpg"
+				},
+				{
+					"id": "100017",
+					"title": "Our Home And Native Land",
+					"media": "Acrylic on Birch",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"image": "images/2010images/web-Our-Home-and-Native-Land-is-a-commodity-4x8-300dpi.jpg",
+					"thumb": "images/2010thumbs/thhomeandnativeland2_001.jpg"
+				},
+				{
+					"id": "100018",
+					"title": "Songs of The Ancients",
+					"media": "Acrylic on Birch with Birch Bark",
+					"width": "15.5",
+					"height": "22",
+					"price": "1,100",
+					"image": "images/2010images/web-Songs-of-the-Ancients-6x8-300dpi.jpg",
+					"thumb": "images/2010thumbs/thsongsoftheancients2_003.jpg"
+				},
+				{
+					"id": "100019",
+					"title": "Mining The Sacred",
+					"media": "Acrylic on Birch",
+					"width": "13",
+					"height": "38.5",
+					"price": "1,600",
+					"image": "images/2010images/web-Mining-the-Sacred-4x12-300dpi_000.jpg",
+					"thumb": "images/2010thumbs/thminingthesacred72dpi_001.jpg"
+				},
+				{
+					"id": "100020",
+					"title": "True North Strong And Free Is Weeping",
+					"media": "Acrylic on Birch and Beads",
+					"width": "22",
+					"height": "20",
+					"price": "1,400",
+					"image": "images/2010images/The-True-North-Strong-and-Free--Is-Weeping--small-300dpi.jpg",
+					"thumb": "images/2010thumbs/ththenorthisweeping_003.jpg"
+				},
+				{
+					"id": "100021",
+					"title": "Water Connection",
+					"media": "Acrylic on Pine",
+					"width": "42",
+					"height": "24",
+					"price": "3,200",
+					"image": "images/2010images/web-Water-Connected-8x2-300dpi_000.jpg",
+					"thumb": "images/2010thumbs/thwaterconnection_002_000.jpg"
+				},
+				{
+					"id": "100022",
+					"title": "Animikeeg and Nokimis Thunder Beings and Grandmother Moon",
+					"media": "Acrylic on Fir",
+					"width": "8",
+					"height": "28.5",
+					"price": "730",
+					"image": "images/2010images/web-Thunder-Beings-under-Grandmother-Moon-3x12.jpg",
+					"thumb": "images/2010thumbs/ththunderbeingsundegrandmothermoon_003.jpg"
+				},
+				{
+					"id": "100023",
+					"title": "Sacred Roots",
+					"media": "Acrylic on Fir",
+					"width": "9",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2010images/web-Sacred-Roots2-8x7-300dpi.jpg",
+					"thumb": "images/2010thumbs/thsacredroots2_005.jpg"
+				},
+				{
+					"id": "100024",
+					"title": "Transforming Indigenous Freedom",
+					"media": "Acrylic on Mahogany",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"image": "images/2010images/web-Transforming-Indigenous-Freedom2-4x8-300dpi.jpg",
+					"thumb": "images/2010thumbs/thtransformingfreedom_003.jpg"
+				},
+				{
+					"id": "100025",
+					"title": "Edges of Creation",
+					"media": "Acrylic on Birch (Donated to Blue Mountain Foundation of the Arts)",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2010images/EdgeofCreationforweb_000.jpg",
+					"thumb": "images/2010thumbs/thedgesofcreation_000.jpg"
+				},
+				{
+					"id": "100026",
+					"title": "Spirits of Spring",
+					"media": "Acrylic on Spruce with Beads",
+					"width": "48",
+					"height": "48",
+					"price": "7,500",
+					"image": "images/2010images/SpiritsofSpring_1212forweb.jpg",
+					"thumb": "images/2010thumbs/thignitingseeds_003.jpg"
+				},
+				{
+					"id": "100027",
+					"title": "See What I Dream",
+					"media": "Acrylic on ",
+					"width": " ",
+					"height": " ",
+					"image": "images/2010images/see-what-i-dream-300dpi.jpg",
+					"thumb": "images/2010thumbs/thseewhatIdream_003.jpg"
+				}
+			]
+		},
+		{
+			"name": "2007 Shapshifting New Skins",
+			"year": "2007",
+			"id": "2007",
+			"painting": [
+				{
+					"id": "070000",
+					"title": "Choosing Family",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "24",
+					"price": "1,850",
+					"image": "images/2007images/choosingfamilyweb.jpg",
+					"thumb": "images/2007thumbs/thchoosingfamily_000.jpg"
+				},
+				{
+					"id": "070001",
+					"title": "Crow Shapeshifting Human",
+					"media": "Acrylic on Oak",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"image": "images/2007images/crowshapeshiftinghumanweb.jpg",
+					"thumb": "images/2007thumbs/thcrowshapeshiftinghuman_000.jpg"
+				},
+				{
+					"id": "070002",
+					"title": "Finding Our Way Again",
+					"media": "Acrylic on Fir",
+					"width": "48",
+					"height": "24",
+					"image": "images/2007images/findingourwayagainweb.jpg",
+					"thumb": "images/2007thumbs/thfindingourwayagain_000.jpg"
+				},
+				{
+					"id": "070003",
+					"title": "Grandmother Pulls Me",
+					"media": "Acrylic on Fir",
+					"width": "45",
+					"height": "24",
+					"price": "3,500",
+					"image": "images/2007images/grandmotherpullsmeweb.jpg",
+					"thumb": "images/2007thumbs/thgrandmotherpullsme_000.jpg"
+				},
+				{
+					"id": "070004",
+					"title": "Into The Circle Of Life",
+					"media": "Acrylic on Poplar, Bee Hive, Honey Comb, Rose Petals and Red Pine Bark",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"image": "images/2007images/intothecircleoflifeweb.jpg",
+					"thumb": "images/2007thumbs/thIntothecircleoflife_000.jpg"
+				},
+				{
+					"id": "070005",
+					"title": "Oh Canada",
+					"media": "Acrylic on Oak",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"poem": "ohcanada.txt",
+					"image": "images/2007images/ohcanadaweb.jpg",
+					"thumb": "images/2007thumbs/thohcanada_000.jpg"
+				},
+				{
+					"id": "070006",
+					"title": "Rise Up",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"poem": "riseup.txt",
+					"image": "images/2007images/riseupweb.jpg",
+					"thumb": "images/2007thumbs/thriseup_000.jpg"
+				},
+				{
+					"id": "070007",
+					"title": "Tempests Within",
+					"media": "Acrylic on Birch",
+					"width": "34.5",
+					"height": "18.5",
+					"price": "2,100",
+					"image": "images/2007images/tempestswithinweb.jpg",
+					"thumb": "images/2007thumbs/thtempestswithin_000.jpg"
+				},
+				{
+					"id": "070008",
+					"title": "White Buffalo Peace",
+					"media": "Acrylic on Spruce",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"image": "images/2007images/whitebuffalopeaceweb.jpg",
+					"thumb": "images/2007thumbs/thwhitebuffalopeace_000.jpg"
+				},
+				{
+					"id": "070009",
+					"title": "Windigo",
+					"media": "Acrylic on Pine",
+					"width": "19.5",
+					"height": "7",
+					"price": "450",
+					"image": "images/2007images/windigoweb.jpg",
+					"thumb": "images/2007thumbs/thwindigo_000.jpg"
+				},
+				{
+					"id": "070010",
+					"title": "From Me To You",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"image": "images/2007images/frommetoyouweb.jpg",
+					"thumb": "images/2007thumbs/thFromMeToYou_000.jpg"
+				},
+				{
+					"id": "070011",
+					"title": "The Fourth Age of Skin, Waboose",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"image": "images/2007images/fouragesofskinweb.jpg",
+					"thumb": "images/2007thumbs/thfouragesofskin_000.jpg"
+				}
+			]
+		},
+		{
+			"name": "2006 Message Between Blue and Red",
+			"year": "2006",
+			"id": "2006",
+			"painting": [
+				{
+					"id": "060000",
+					"title": "When Sky Woman Was Falling",
+					"media": "Acrylic on Birch",
+					"width": "24",
+					"height": "48",
+					"price": "sold",
+					"image": "images/2006images/whenskywomanwasfallingweb.jpg",
+					"thumb": "images/2006thumbs/thwhenskywomanwasfalling_000.jpg"
+				},
+				{
+					"id": "060001",
+					"title": "Language Of The Loon",
+					"media": "Acrylic on Fir",
+					"width": "48",
+					"height": "24",
+					"price": "3,700",
+					"image": "images/2006images/languageoftheloonweb.jpg",
+					"thumb": "images/2006thumbs/thlanguageoftheloon_001.jpg"
+				},
+				{
+					"id": "060002",
+					"title": "Finding Blue Jays Voice",
+					"media": "Acrylic on Spruce",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"image": "images/2006images/findingbluejaysvoiceweb.jpg",
+					"thumb": "images/2006thumbs/thfindingbluejaysvoice_001.jpg"
+				},
+				{
+					"id": "060003",
+					"title": "The Spirit Of Water",
+					"media": "Acrylic on Spruce",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2006images/thespiritofwaterweb.jpg",
+					"thumb": "images/2006thumbs/ththespiritofwater_000.jpg"
+				},
+				{
+					"id": "060004",
+					"title": "In The Heart That I Kill",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2006images/intheheartthatikillweb.jpg",
+					"thumb": "images/2006thumbs/thintheheartthatikill_000.jpg"
+				},
+				{
+					"id": "060005",
+					"title": "Blue Roads Answering Prayers",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "19",
+					"price": "1,460",
+					"image": "images/2006images/blueroadsansweringprayersweb.jpg",
+					"thumb": "images/2006thumbs/thblueroadsansweringprayers_000.jpg"
+				},
+				{
+					"id": "060007",
+					"title": "Red Roads Protection",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "29",
+					"price": "2,240",
+					"image": "images/2006images/redroadsprotectionweb.jpg",
+					"thumb": "images/2006thumbs/thredroadsprotection_000.jpg"
+				},
+				{
+					"id": "060006",
+					"title": "Spiritual Knowledge",
+					"media": "Acrylic on Spruce",
+					"width": "14.5",
+					"height": "7.5",
+					"price": "sold",
+					"image": "images/2006images/spiritualknowledgeweb.jpg",
+					"thumb": "images/2006thumbs/thspiritualknowledge_000.jpg"
+				},
+				{
+					"id": "060008",
+					"title": "In The Silence Of Growing",
+					"media": "Acrylic on RedGum",
+					"width": "12",
+					"height": "51.5",
+					"price": "2,000",
+					"image": "images/2006images/inthesilenceofgrowingweb.jpg",
+					"thumb": "images/2006thumbs/thinthesilenceofgrowing_000.jpg"
+				},
+				{
+					"id": "060009",
+					"title": "Living In Harmony With Creation",
+					"media": "Acrylic on Fir",
+					"width": "48",
+					"height": "24",
+					"price": "3,700",
+					"image": "images/2006images/livinginharmonywithcreationweb.jpg",
+					"thumb": "images/2006thumbs/thlivinginharmonywithcreation_000.jpg"
+				},
+				{
+					"id": "060010",
+					"title": "Sunlit Shadow Sides",
+					"media": "Acrylic on Pine, Two Images (front and back)",
+					"width": "11",
+					"height": "9",
+					"price": "640",
+					"image": "images/2006images/sunlitshadowsides-both.jpg",
+					"thumb": "images/2006thumbs/thsunlitshadowsides_000.jpg"
+				},
+				{
+					"id": "060011",
+					"title": "In The Darkness Of Being",
+					"media": "Acrylic on Pine",
+					"width": "12",
+					"height": "7",
+					"price": "sold",
+					"image": "images/2006images/inthedarknessofbeingweb.jpg",
+					"thumb": "images/2006thumbs/thinthedarknessofbeing_000.jpg"
+				},
+				{
+					"id": "060012",
+					"title": "Scattered Lives",
+					"media": "Acrylic on Spruce",
+					"width": "14.5",
+					"height": "8",
+					"price": "380",
+					"image": "images/2006images/scatteredlivesweb.jpg",
+					"thumb": "images/2006thumbs/thscatteredlives_000.jpg"
+				},
+				{
+					"id": "060013",
+					"title": "When Wolf Taught The World",
+					"media": "Acrylic on Spruce",
+					"width": "7.5",
+					"height": "14.5",
+					"price": "sold",
+					"image": "images/2006images/whenwolftaughttheworldweb.jpg",
+					"thumb": "images/2006thumbs/thwhenwolftaughttheworld_000.jpg"
+				},
+				{
+					"id": "060014",
+					"title": "Running Deer",
+					"media": "Acrylic on Spruce",
+					"width": "7.5",
+					"height": "14.5",
+					"price": "sold",
+					"image": "images/2006images/runningdeerweb.jpg",
+					"thumb": "images/2006thumbs/thrunningdeer_000.jpg"
+				},
+				{
+					"id": "060015",
+					"title": "What The Tree Tells",
+					"media": "Acrylic on Pine",
+					"width": "9",
+					"height": "17.5",
+					"price": "500",
+					"image": "images/2006images/whatthetreetellsweb.jpg",
+					"thumb": "images/2006thumbs/thwhatthetreetells_000.jpg"
+				},
+				{
+					"id": "060016",
+					"title": "Back And Forth",
+					"media": "Acrylic on Pine",
+					"width": "4.5",
+					"height": "19",
+					"price": "sold",
+					"image": "images/2006images/backandforthweb.jpg",
+					"thumb": "images/2006thumbs/thbackandforth_000.jpg"
+				},
+				{
+					"id": "060017",
+					"title": "Riding Backward",
+					"media": "Acrylic on Spruce",
+					"width": "8.5",
+					"height": "11",
+					"price": "sold",
+					"image": "images/2006images/ridingbackwardweb.jpg",
+					"thumb": "images/2006thumbs/thridingbackward_000.jpg"
+				},
+				{
+					"id": "060018",
+					"title": "Reflections Of The Sun On Water",
+					"media": "Acrylic on Spruce",
+					"width": "11",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2006images/reflectionsofthesunonwaterweb.jpg",
+					"thumb": "images/2006thumbs/threflectionsofthesunonwater-1.jpg"
+				},
+				{
+					"id": "060019",
+					"title": "Spirit Of The Wetlands",
+					"media": "Acrylic on Spruce",
+					"width": "8",
+					"height": "14.5",
+					"price": "sold",
+					"image": "images/2006images/spiritofthewetlandsweb.jpg",
+					"thumb": "images/2006thumbs/thspiritofthewetlands_000.jpg"
+				},
+				{
+					"id": "060020",
+					"title": "In The Dream Of Waking",
+					"media": "Acrylic on Spruce",
+					"width": "9",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2006images/inthedreamofwakingweb.jpg",
+					"thumb": "images/2006thumbs/thinthedreamofwaking_000.jpg"
+				},
+				{
+					"id": "060021",
+					"title": "Little Spirit Moon",
+					"media": "Acrylic on Spruce",
+					"width": "8.5",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2006images/littlespiritmoonweb.jpg",
+					"thumb": "images/2006thumbs/thlittlespiritmoon_000.jpg"
+				},
+				{
+					"id": "060022",
+					"title": "Resting On Spirit Messenger",
+					"media": "Acrylic on Spruce",
+					"width": "7.5",
+					"height": "10.5",
+					"price": "sold",
+					"image": "images/2006images/restingonspiritmessengerweb.jpg",
+					"thumb": "images/2006thumbs/threstingonspiritmessenger_000.jpg"
+				},
+				{
+					"id": "060023",
+					"title": "Wearing Moose And Speaking Deer",
+					"media": "Acrylic on Spruce",
+					"width": "7.5",
+					"height": "7.5",
+					"price": "sold",
+					"image": "images/2006images/wearingmooseandspeakingdeerweb.jpg",
+					"thumb": "images/2006thumbs/thwearingmooseandspeakingdeer_000.jpg"
+				},
+				{
+					"id": "060024",
+					"title": "Bear Moon - Mukwa Geezis",
+					"media": "Acrylic on Spruce",
+					"width": "7.5",
+					"height": "7.5",
+					"price": "sold",
+					"image": "images/2006images/bearmoonmukwageezisweb.jpg",
+					"thumb": "images/2006thumbs/thbearmoonmukwageezis_000.jpg"
+				},
+				{
+					"id": "060025",
+					"title": "Lifting Up",
+					"media": "Acrylic on Pine",
+					"width": "7",
+					"height": "195.5",
+					"price": "sold",
+					"image": "images/2006images/liftingupweb.jpg",
+					"thumb": "images/2006thumbs/thliftingup_000.jpg"
+				},
+				{
+					"id": "060026",
+					"title": "Messages",
+					"media": "Acrylic on Pine",
+					"width": "7",
+					"height": "15",
+					"price": "sold",
+					"image": "images/2006images/messagesweb.jpg",
+					"thumb": "images/2006thumbs/thmessages_000.jpg"
+				}
+			]
+		},
+		{
+			"name": "2005 Seeing In a Sacred Manner",
+			"year": "2005",
+			"id": "2005",
+			"painting": [
+				{
+					"id": "050000",
+					"title": "Warrior Chief",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "48",
+					"price": "sold",
+					"image": "images/2005images/warriorchief.jpg",
+					"thumb": "images/2005thumbs/thwarriorchief3.jpg"
+				},
+				{
+					"id": "050001",
+					"title": "Early Morning Prayers",
+					"media": "Acrylic on Spruce",
+					"width": " 24",
+					"height": "48",
+					"price": "sold",
+					"image": "images/2005images/earlymorningprayer.jpg",
+					"thumb": "images/2005thumbs/thearlymorningprayers.jpg"
+				},
+				{
+					"id": "050002",
+					"title": "She Holds Her Own",
+					"media": "Acrylic on Pine",
+					"width": "5",
+					"height": "20",
+					"price": "sold",
+					"image": "images/2005images/sheholdsherown.jpg",
+					"thumb": "images/2005thumbs/thsheholdsherown.jpg"
+				},
+				{
+					"id": "050003",
+					"title": "Seeing The Truth",
+					"media": "Acrylic on Pine",
+					"width": "15",
+					"height": "26",
+					"price": "sold",
+					"image": "images/2005images/seeingthetruth.jpg",
+					"thumb": "images/2005thumbs/thseeingthetruth.jpg"
+				},
+				{
+					"id": "050004",
+					"title": "Urban Natives",
+					"media": "Acrylic on Spruce",
+					"width": "6",
+					"height": "7",
+					"price": "sold",
+					"image": "images/2005images/urbannatives.jpg",
+					"thumb": "images/2005thumbs/thurbannatives.jpg"
+				},
+				{
+					"id": "050005",
+					"title": "Metamorphosis",
+					"media": "Acrylic on Pine",
+					"width": "7",
+					"height": "20",
+					"price": "sold",
+					"image": "images/2005images/metamorphosis.jpg",
+					"thumb": "images/2005thumbs/thmetamorphosis.jpg"
+				},
+				{
+					"id": "050006",
+					"title": "The Four Ages",
+					"media": "Acrylic on Oak",
+					"width": "7",
+					"height": "11",
+					"price": "sold",
+					"image": "images/2005images/thefourages.jpg",
+					"thumb": "images/2005thumbs/ththefourages.jpg"
+				},
+				{
+					"id": "050007",
+					"title": "The Balance Of The Universe",
+					"media": "Acrylic on Pine",
+					"width": "8",
+					"height": "20",
+					"price": "sold",
+					"image": "images/2005images/balanceofuniverse.jpg",
+					"thumb": "images/2005thumbs/thbalanceoftheuniverse.jpg"
+				},
+				{
+					"id": "050008",
+					"title": "The Balance Of Mother Earth",
+					"media": "Acrylic on Pine",
+					"width": "6",
+					"height": "20",
+					"price": "sold",
+					"image": "images/2005images/balanceofmotherearth.jpg",
+					"thumb": "images/2005thumbs/thbalanceofmotherearth.jpg"
+				},
+				{
+					"id": "050009",
+					"title": "A Man Among Fish",
+					"media": "Acrylic on Pine",
+					"width": "7",
+					"height": "19",
+					"price": "sold",
+					"image": "images/2005images/amanamongfish.jpg",
+					"thumb": "images/2005thumbs/thmanamongfish.jpg"
+				},
+				{
+					"id": "050010",
+					"title": "Re-Awakening The Dreams",
+					"media": "Acrylic on Fir",
+					"width": "48",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2005images/reawakeningdreams.jpg",
+					"thumb": "images/2005thumbs/threawakeningthedreams.jpg"
+				},
+				{
+					"id": "050011",
+					"title": "Re-Awakening the Stories",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "24",
+					"price": "1,850",
+					"image": "images/2005images/reawakeningstories.jpg",
+					"thumb": "images/2005thumbs/threawakeningthestories.jpg"
+				},
+				{
+					"id": "050012",
+					"title": "Re-Awakening the Dances",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2005images/reawakeningdances.jpg",
+					"thumb": "images/2005thumbs/threawakeningthedances.jpg"
+				},
+				{
+					"id": "050013",
+					"title": "Re-Awakening the Songs",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2005images/reawakeningsongs.jpg",
+					"thumb": "images/2005thumbs/threawakeningthesongs.jpg"
+				}
+			]
+		},
+		{
+			"name": "2004 Relations",
+			"year": "2004 II",
+			"id": "2004b",
+			"painting": [
+				{
+					"id": "04b000",
+					"title": "Counting Coup",
+					"media": "Acrylic on Fir",
+					"width": "48",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2004bimages/countingcoup.jpg",
+					"thumb": "images/2004bthumbs/thcountingcoup.jpg"
+				},
+				{
+					"id": "04b001",
+					"title": "West Wind Spirit ~ Sky Relations",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2004bimages/WestWind4.jpg",
+					"thumb": "images/2004bthumbs/thwestwind.jpg"
+				},
+				{
+					"id": "04b002",
+					"title": "Continuing the Cycle ~ Seed Relations",
+					"media": "Acrylic on Pine",
+					"width": "23",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2004bimages/continuingthecycle.jpg",
+					"thumb": "images/2004bthumbs/thcontinuingthecycle.jpg"
+				},
+				{
+					"id": "04b003",
+					"title": "Circle of Life ~ Water Relations",
+					"media": "Acrylic on Pine",
+					"width": "29",
+					"height": "9",
+					"price": "sold",
+					"image": "images/2004bimages/circleoflifewater.jpg",
+					"thumb": "images/2004bthumbs/thcircleoflifewater.jpg"
+				},
+				{
+					"id": "04b004",
+					"title": "Buffalo Spirit",
+					"media": "Acrylic on Pine",
+					"width": "33",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2004bimages/buffalospirit.jpg",
+					"thumb": "images/2004bthumbs/thbuffalospirit.jpg"
+				},
+				{
+					"id": "04b005",
+					"title": "Wolf Spirit ~ Relations of Clan",
+					"media": "Acrylic on Spruce",
+					"width": "24",
+					"height": "13",
+					"price": "sold",
+					"image": "images/2004bimages/wolfspirit.jpg",
+					"thumb": "images/2004bthumbs/thwolfspirit.jpg"
+				},
+				{
+					"id": "04b006",
+					"title": "Anishnawbe ~ Clan Relations",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2004bimages/anishnawbeclan.jpg",
+					"thumb": "images/2004bthumbs/thanishnawbeclan.jpg"
+				},
+				{
+					"id": "04b007",
+					"title": "Ancestors ~ Family Relations",
+					"media": "Acrylic on Birch",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"image": "images/2004bimages/anscestorsfamily.jpg",
+					"thumb": "images/2004bthumbs/thanscestorsfamily.jpg"
+				},
+				{
+					"id": "04b008",
+					"title": "Council of the Crows",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2004bimages/councilofcrows.jpg",
+					"thumb": "images/2004bthumbs/thcouncilofcrows.jpg"
+				},
+				{
+					"id": "04b009",
+					"title": "Bear Spirit",
+					"media": "Acrylic on Spruce",
+					"width": "7",
+					"height": "5.5",
+					"price": "sold",
+					"image": "images/2004bimages/bearspirit.jpg",
+					"thumb": "images/2004bthumbs/thbearspirit.jpg"
+				},
+				{
+					"id": "04b010",
+					"title": "Gitchie Manito Creates Anishnawbe",
+					"media": "Acrylic on Spruce",
+					"width": "7.5",
+					"height": "5",
+					"price": "sold",
+					"image": "images/2004bimages/gitchiemanito.jpg",
+					"thumb": "images/2004bthumbs/thgitchiemanito.jpg"
+				}
+			]
+		},
+		{
+			"name": "2004 Earth Prayers",
+			"year": "2004 I",
+			"id": "2004a",
+			"painting": [
+				{
+					"id": "04a000",
+					"title": "Remember Me",
+					"media": "Acrylic on Birch",
+					"width": "24",
+					"height": "24",
+					"price": "1,850",
+					"image": "images/2004aimages/rememberme.jpg",
+					"thumb": "images/2004athumbs/thrememberme.jpg"
+				},
+				{
+					"id": "04a001",
+					"title": "Disappearing Into Her",
+					"media": "Acrylic on Birch",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2004aimages/disapearing.jpg",
+					"thumb": "images/2004athumbs/thdisapearing.jpg"
+				},
+				{
+					"id": "04a002",
+					"title": "And The Great Mystery Is In The Centre of It All",
+					"media": "Acrylic on Birch",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2004aimages/greatmystery.jpg",
+					"thumb": "images/2004athumbs/thgreatmystery.jpg"
+				},
+				{
+					"id": "04a003",
+					"title": "Between Two Worlds",
+					"media": "Acrylic on Spruce",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2004aimages/Between2worlds_000.jpg",
+					"thumb": "images/2004athumbs/thbetween2worlds.jpg"
+				},
+				{
+					"id": "04a004",
+					"title": "Earth Prayers",
+					"media": "Acrylic on Spruce",
+					"width": "17",
+					"height": "20",
+					"price": "sold",
+					"image": "images/2004aimages/earthprayers.jpg",
+					"thumb": "images/2004athumbs/thearthprayers.jpg"
+				},
+				{
+					"id": "04a005",
+					"title": "Spirit Needs Sacrifice",
+					"media": "Acrylic on Birch",
+					"width": "48",
+					"height": "72",
+					"price": "12,000",
+					"image": "images/2004aimages/spiritneeds.jpg",
+					"thumb": "images/2004athumbs/thspiritneeds.jpg"
+				},
+				{
+					"id": "04a006",
+					"title": "Saying Goodbye",
+					"media": "Acrylic on Cedar",
+					"width": "8",
+					"height": "10",
+					"price": "sold",
+					"image": "images/2004aimages/sayinggoodbye.jpg",
+					"thumb": "images/2004athumbs/thsayinggoodbye.jpg"
+				},
+				{
+					"id": "04a007",
+					"title": "Resting On Her",
+					"media": "Acrylic on Cedar",
+					"width": "10",
+					"height": "6",
+					"price": "sold",
+					"image": "images/2004aimages/restingonher.jpg",
+					"thumb": "images/2004athumbs/threstingonher.jpg"
+				},
+				{
+					"id": "04a008",
+					"title": "Connection Down Below To Up High",
+					"media": "Acrylic on Cedar",
+					"width": "6",
+					"height": "11",
+					"price": "sold",
+					"image": "images/2004aimages/connectingfrom.jpg",
+					"thumb": "images/2004athumbs/thconnectingfrom.jpg"
+				}
+			]
+		},
+		{
+			"name": "2003 Shaman Stories",
+			"year": "2003",
+			"id": "2003",
+			"painting": [
+				{
+					"id": "030000",
+					"title": "The Stories",
+					"media": "Acrylic on Birch",
+					"width": "15",
+					"height": "32",
+					"price": "sold",
+					"image": "images/2003images/stories.jpg",
+					"thumb": "images/2003thumbs/thstories.jpg"
+				},
+				{
+					"id": "030001",
+					"title": "Medicine Man",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2003images/shaman.jpg",
+					"thumb": "images/2003thumbs/thshaman.jpg"
+				},
+				{
+					"id": "030002",
+					"title": "The Dance of The North",
+					"media": "Acrylic on Oak",
+					"width": "48",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2003images/dancenorth.jpg",
+					"thumb": "images/2003thumbs/thdancenorth.jpg"
+				},
+				{
+					"id": "030003",
+					"title": "The Reach of The South",
+					"media": "Acrylic on Birch",
+					"width": "22",
+					"height": "15",
+					"price": "sold",
+					"image": "images/2003images/reachsouth.jpg",
+					"thumb": "images/2003thumbs/threachsouth.jpg"
+				},
+				{
+					"id": "030004",
+					"title": "To Hold Back Time",
+					"media": "Acrylic on Fir",
+					"width": "44",
+					"height": "Round (diameter)",
+					"price": "4,900",
+					"image": "images/2003images/holdtime.jpg",
+					"thumb": "images/2003thumbs/thholdtime.jpg"
+				},
+				{
+					"id": "030005",
+					"title": "Crow Medicine",
+					"media": "Acrylic on Birch",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2003images/crowmed.jpg",
+					"thumb": "images/2003thumbs/thcrowmed.jpg"
+				},
+				{
+					"id": "030006",
+					"title": "Black Elk - Holy Man of The Oglala Sioux",
+					"media": "Acrylic on Spruce",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2003images/blackelk.jpg",
+					"thumb": "images/2003thumbs/thblackelk.jpg"
+				},
+				{
+					"id": "030007",
+					"title": "Sleeping In The Rain",
+					"media": "Acrylic on Spruce",
+					"width": "6",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2003images/sleeping.jpg",
+					"thumb": "images/2003thumbs/thsleeping.jpg"
+				},
+				{
+					"id": "030008",
+					"title": "Trying to Fit In",
+					"media": "Acrylic on Spruce",
+					"width": "6",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2003images/fitin.jpg",
+					"thumb": "images/2003thumbs/thfitin.jpg"
+				},
+				{
+					"id": "030009",
+					"title": "Above Eagle",
+					"media": "Acrylic on Spruce",
+					"width": "6",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2003images/above.jpg",
+					"thumb": "images/2003thumbs/thabove.jpg"
+				},
+				{
+					"id": "030010",
+					"title": "Easts Wind",
+					"media": "Acrylic on Spruce",
+					"width": "6",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2003images/eastwind.jpg",
+					"thumb": "images/2003thumbs/theastwind.jpg"
+				},
+				{
+					"id": "030011",
+					"title": "The Calling",
+					"media": "Acrylic on Spruce",
+					"width": "6",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2003images/calling.jpg",
+					"thumb": "images/2003thumbs/thcalling.jpg"
+				},
+				{
+					"id": "030012",
+					"title": "Awaiting The Dance",
+					"media": "Acrylic on Spruce",
+					"width": "6",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2003images/awaiting.jpg",
+					"thumb": "images/2003thumbs/thawaiting.jpg"
+				},
+				{
+					"id": "030013",
+					"title": "Earths Pull",
+					"media": "Acrylic on Spruce",
+					"width": "6",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2003images/earth.jpg",
+					"thumb": "images/2003thumbs/thearth.jpg"
+				},
+				{
+					"id": "030014",
+					"title": "Moving Again",
+					"media": "Acrylic on Spruce",
+					"width": "6",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2003images/moving.jpg",
+					"thumb": "images/2003thumbs/thmoving.jpg"
+				},
+				{
+					"id": "030015",
+					"title": "Awaiting New Wings",
+					"media": "Acrylic on Spruce",
+					"width": "6",
+					"height": "8",
+					"price": "sold",
+					"image": "images/2003images/newwing.jpg",
+					"thumb": "images/2003thumbs/thnewwing.jpg"
+				}
+			]
+		},
+		{
+			"name": "2002 A Deeper Look Inside",
+			"year": "2002",
+			"id": "2002",
+			"painting": [
+				{
+					"id": "020000",
+					"title": "Techumseh",
+					"media": "Acrylic on Spruce",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2002images/tecumseh.jpg",
+					"thumb": "images/2002thumbs/thtecumseh.jpg"
+				},
+				{
+					"id": "020001",
+					"title": "Song For The Fallen Warriors",
+					"media": "Acrylic on Fir",
+					"width": "18",
+					"height": "18",
+					"price": "sold",
+					"image": "images/2002images/songforfallenwarriors.jpg",
+					"thumb": "images/2002thumbs/thsongforfallenwarriors.jpg"
+				},
+				{
+					"id": "020002",
+					"title": "Black Bird Drum",
+					"media": "Acrylic on Birch",
+					"width": "18",
+					"height": "Round (diameter)",
+					"price": "sold",
+					"image": "images/2002images/blackbirddrum.jpg",
+					"thumb": "images/2002thumbs/thblackbirddrum.jpg"
+				},
+				{
+					"id": "020003",
+					"title": "Butterfly Caught In The Web",
+					"media": "Acrylic on Birch",
+					"width": "14",
+					"height": "13",
+					"price": "sold",
+					"image": "images/2002images/butterflycaught.jpg",
+					"thumb": "images/2002thumbs/thbutterflycaught.jpg"
+				},
+				{
+					"id": "020004",
+					"title": "Between Two Women",
+					"media": "Acrylic on Spruce",
+					"width": "13",
+					"height": "12",
+					"price": "sold",
+					"image": "images/2002images/betweentwowomen.jpg",
+					"thumb": "images/2002thumbs/thbetweentwowomen.jpg"
+				},
+				{
+					"id": "020005",
+					"title": "Medicine Wheel",
+					"media": "Acrylic on Spruce",
+					"width": "44",
+					"height": "Round (diameter)",
+					"price": "sold",
+					"image": "images/2002images/medicinewheel.jpg",
+					"thumb": "images/2002thumbs/thmedicinewheel.jpg"
+				},
+				{
+					"id": "020006",
+					"title": "Drifting On A Day",
+					"media": "Acrylic on Oak",
+					"width": "48",
+					"height": "19",
+					"price": "sold",
+					"image": "images/2002images/driftingonaday.jpg",
+					"thumb": "images/2002thumbs/thdriftingonaday.jpg"
+				},
+				{
+					"id": "020007",
+					"title": "The Prayer",
+					"media": "Acrylic on Birch",
+					"width": "14",
+					"height": "14",
+					"price": "sold",
+					"image": "images/2002images/prayers.jpg",
+					"thumb": "images/2002thumbs/ththeprayer.jpg"
+				},
+				{
+					"id": "020008",
+					"title": "The Teacher And The Taught",
+					"media": "Acrylic on Fir",
+					"width": "11",
+					"height": "12",
+					"price": "sold",
+					"image": "images/2002images/theteaching.jpg",
+					"thumb": "images/2002thumbs/ththeteaching.jpg"
+				}
+			]
+		},
+		{
+			"name": "2001 Places of Transition",
+			"year": "2001",
+			"id": "2001",
+			"painting": [
+				{
+					"id": "010000",
+					"title": "Do You See",
+					"media": "Acrylic on Fir",
+					"width": "48",
+					"height": "24",
+					"price": "3,700",
+					"image": "images/2001images/doyousee.jpg",
+					"thumb": "images/2001thumbs/thdoyousee.jpg"
+				},
+				{
+					"id": "010001",
+					"title": "Waiting To Be Born",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2001images/waiting.jpg",
+					"thumb": "images/2001thumbs/thwaiting2.jpg"
+				},
+				{
+					"id": "010002",
+					"title": "Silent Head Winds",
+					"media": "Acrylic on Pine",
+					"width": "35",
+					"height": "14",
+					"price": "sold",
+					"image": "images/2001images/silentheadwinds.jpg",
+					"thumb": "images/2001thumbs/thsilentheadwinds.jpg"
+				},
+				{
+					"id": "010003",
+					"title": "The Flow",
+					"media": "Acrylic on Oak",
+					"width": "7",
+					"height": "9",
+					"price": "sold",
+					"image": "images/2001images/flow.jpg",
+					"thumb": "images/2001thumbs/thflow.jpg"
+				},
+				{
+					"id": "010004",
+					"title": "Anger Steps On, Not Over",
+					"media": "Acrylic on Fir",
+					"width": "11",
+					"height": "18",
+					"price": "sold",
+					"image": "images/2001images/anger.jpg",
+					"thumb": "images/2001thumbs/thanger.jpg"
+				},
+				{
+					"id": "010005",
+					"title": "Raven Brings On The Night",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2001images/ravenbrings.jpg",
+					"thumb": "images/2001thumbs/thravenbrings.jpg"
+				},
+				{
+					"id": "010006",
+					"title": "Dreams Are Too Expensive Not To Survive",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "24",
+					"price": "sold",
+					"image": "images/2001images/dreams.jpg",
+					"thumb": "images/2001thumbs/thdreams.jpg"
+				},
+				{
+					"id": "010007",
+					"title": "Silent Warrior",
+					"media": "Acrylic on Birch",
+					"width": "11",
+					"height": "25",
+					"price": "sold",
+					"image": "images/2001images/silentwarrior.jpg",
+					"thumb": "images/2001thumbs/thsilentwarrior.jpg"
+				},
+				{
+					"id": "010008",
+					"title": "Looking Back Longing Forwards",
+					"media": "Acrylic on Birch",
+					"width": "12",
+					"height": "14",
+					"price": "sold",
+					"image": "images/2001images/lookingback.jpg",
+					"thumb": "images/2001thumbs/thlookingback.jpg"
+				},
+				{
+					"id": "010009",
+					"title": "Shapeshifting Raven Steals Anothers Light",
+					"media": "Acrylic on Birch",
+					"width": "11",
+					"height": "51",
+					"price": "sold",
+					"image": "images/2001images/shapeshifting.jpg",
+					"thumb": "images/2001thumbs/thshapeshifting.jpg"
+				},
+				{
+					"id": "010010",
+					"title": "Holding Back The Rain",
+					"media": "Acrylic on Birch",
+					"width": "14",
+					"height": "18",
+					"price": "sold",
+					"image": "images/2001images/holdingback.jpg",
+					"thumb": "images/2001thumbs/thholdingback.jpg"
+				},
+				{
+					"id": "010011",
+					"title": "Political Plays",
+					"media": "Acrylic on Birch",
+					"width": "34",
+					"height": "30",
+					"price": "3,400",
+					"image": "images/2001images/Political-Plays1.jpg",
+					"thumb": "images/2001thumbs/thridingact.jpg"
+				},
+				{
+					"id": "010012",
+					"title": "Blinded Just Enough To See",
+					"media": "Acrylic on Oak",
+					"width": "24",
+					"height": "48",
+					"price": "sold",
+					"image": "images/2001images/blinded.jpg",
+					"thumb": "images/2001thumbs/thblinded.jpg"
+				},
+				{
+					"id": "010013",
+					"title": "Traveling The Medicine Wheel",
+					"media": "Acrylic on Birch",
+					"width": "13",
+					"height": "14",
+					"price": "sold",
+					"image": "images/2001images/travelling.jpg",
+					"thumb": "images/2001thumbs/thtravelling.jpg"
+				}
+			]
+		},
+		{
+			"name": "1999 No Need To Hide",
+			"year": "1999",
+			"id": "1999",
+			"painting": [
+				{
+					"id": "990000",
+					"title": "No Need to Hide",
+					"media": "Acrylic on Fir",
+					"width": "48",
+					"height": "38",
+					"price": "sold",
+					"image": "images/1999images/hide3.jpg",
+					"thumb": "images/1999thumbs/thhide.jpg"
+				},
+				{
+					"id": "990001",
+					"title": "Lessons of a Mother",
+					"media": "Acrylic on Oak",
+					"width": "48",
+					"height": "24",
+					"price": "3,700",
+					"image": "images/1999images/lessons.jpg",
+					"thumb": "images/1999thumbs/thless.jpg"
+				},
+				{
+					"id": "990002",
+					"title": "Owls Warning",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "21",
+					"price": "sold",
+					"image": "images/1999images/owls.jpg",
+					"thumb": "images/1999thumbs/thowls.jpg"
+				},
+				{
+					"id": "990003",
+					"title": "Scarred and Wounded",
+					"media": "Acrylic on Pine",
+					"width": "21",
+					"height": "36",
+					"price": "2,800",
+					"image": "images/1999images/scarred.jpg",
+					"thumb": "images/1999thumbs/thscar.jpg"
+				},
+				{
+					"id": "990004",
+					"title": "Miigwech",
+					"media": "Acrylic on Oak",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"image": "images/1999images/Miigwech.jpg",
+					"thumb": "images/1999thumbs/thmiigwech.jpg"
+				},
+				{
+					"id": "990005",
+					"title": "Mother of Creation",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "48",
+					"price": "sold",
+					"image": "images/1999images/innerfire.jpg",
+					"thumb": "images/1999thumbs/thinnerfire.jpg"
+				},
+				{
+					"id": "990006",
+					"title": "Hurricane",
+					"media": "Acrylic on Birch",
+					"width": "25",
+					"height": "11",
+					"price": "sold",
+					"image": "images/1999images/hurricane.jpg",
+					"thumb": "images/1999thumbs/thhurricane.jpg"
+				},
+				{
+					"id": "990007",
+					"title": "Rooted of The Strong",
+					"media": "Acrylic on Oak",
+					"width": "30",
+					"height": "17",
+					"price": "sold",
+					"image": "images/1999images/rooted.jpg",
+					"thumb": "images/1999thumbs/throoted.jpg"
+				},
+				{
+					"id": "990008",
+					"title": "We Are A Voice",
+					"media": "Acrylic on Pine",
+					"width": "48",
+					"height": "24",
+					"price": "sold",
+					"image": "images/1999images/weareavoice.jpg",
+					"thumb": "images/1999thumbs/thweareavoice.jpg"
+				}
+			]
+		},
+		{
+			"name": "1997/1998 Spoken Trees",
+			"year": "1997/8",
+			"id": "1998",
+			"painting": [
+				{
+					"id": "980000",
+					"title": "Three Sisters",
+					"media": "Acrylic on Oak",
+					"width": "14",
+					"height": "20",
+					"price": "sold",
+					"image": "images/1998images/threesisters.jpg",
+					"thumb": "images/1998thumbs/ththreesisters.jpg"
+				},
+				{
+					"id": "980001",
+					"title": "White Buffalo Calf Woman",
+					"media": "Acrylic on Pine",
+					"width": "32",
+					"height": "26",
+					"price": "sold",
+					"image": "images/1998images/whitebuffalo.jpg",
+					"thumb": "images/1998thumbs/thwhitebuffalo.jpg"
+				},
+				{
+					"id": "980002",
+					"title": "Four Winds of Change",
+					"media": "Acrylic on Birch",
+					"width": "48",
+					"height": "24",
+					"price": "sold",
+					"image": "images/1998images/fourwinds.jpg",
+					"thumb": "images/1998thumbs/thfourw.jpg"
+				},
+				{
+					"id": "980003",
+					"title": "Earth Masks",
+					"media": "Acrylic on Oak",
+					"width": "24",
+					"height": "48",
+					"price": "sold",
+					"image": "images/1998images/earthmasks.jpg",
+					"thumb": "images/1998thumbs/thearthmasks.jpg"
+				},
+				{
+					"id": "980004",
+					"title": "Deep Silence",
+					"media": "Acrylic on Pine",
+					"width": "38",
+					"height": "23",
+					"price": "sold",
+					"image": "images/1998images/deepsilence.jpg",
+					"thumb": "images/1998thumbs/thdeepsilence.jpg"
+				},
+				{
+					"id": "980005",
+					"title": "Becoming",
+					"media": "Acrylic on Pine",
+					"width": "50",
+					"height": "19",
+					"price": "sold",
+					"image": "images/1998images/becoming.jpg",
+					"thumb": "images/1998thumbs/thbecoming.jpg"
+				},
+				{
+					"id": "980006",
+					"title": "The Skys Mask",
+					"media": "Acrylic on Oak",
+					"width": "26",
+					"height": "14",
+					"price": "sold",
+					"image": "images/1998images/skysmask.jpg",
+					"thumb": "images/1998thumbs/thskysmask.jpg"
+				},
+				{
+					"id": "980007",
+					"title": "Life Supporting Life",
+					"media": "Acrylic on Birch",
+					"width": "24",
+					"height": "48",
+					"price": "sold",
+					"image": "images/1998images/life2.jpg",
+					"thumb": "images/1998thumbs/thlife.jpg"
+				},
+				{
+					"id": "980008",
+					"title": "The Whisper",
+					"media": "Acrylic on Oak",
+					"width": "48",
+					"height": "24",
+					"price": "sold",
+					"image": "images/1998images/whisper2.jpg",
+					"thumb": "images/1998thumbs/thwhisp.jpg"
+				},
+				{
+					"id": "980009",
+					"title": "Wolf Elk",
+					"media": "Acrylic on Oak",
+					"width": "24",
+					"height": "48",
+					"price": "sold",
+					"image": "images/1998images/wolfelk.jpg",
+					"thumb": "images/1998thumbs/thwolfelk.jpg"
+				},
+				{
+					"id": "980010",
+					"title": "The Seventh Fire",
+					"media": "Acrylic on Oak",
+					"width": "24",
+					"height": "48",
+					"price": "sold",
+					"image": "images/1998images/7thfire.jpg",
+					"thumb": "images/1998thumbs/th7th.jpg"
+				},
+				{
+					"id": "980011",
+					"title": "Winter Song",
+					"media": "Acrylic on Birch",
+					"width": "24",
+					"height": "36",
+					"price": "2,770",
+					"image": "images/1998images/winters.jpg",
+					"thumb": "images/1998thumbs/thwinter.jpg"
+				},
+				{
+					"id": "980012",
+					"title": "Return",
+					"media": "Acrylic on Oak",
+					"width": "48",
+					"height": "48",
+					"price": "6,900",
+					"image": "images/1998images/return.jpg",
+					"thumb": "images/1998thumbs/threturn.jpg"
+				},
+				{
+					"id": "980013",
+					"title": "Connection",
+					"media": "Acrylic on Birch",
+					"width": "24",
+					"height": "48",
+					"price": "sold",
+					"image": "images/1998images/connect.jpg",
+					"thumb": "images/1998thumbs/thconnect.jpg"
+				},
+				{
+					"id": "970000",
+					"title": "The Day the Order Changed",
+					"media": "Acrylic on Birch",
+					"width": "48",
+					"height": "48",
+					"price": "sold",
+					"image": "images/1998images/order.jpg",
+					"thumb": "images/1998thumbs/thorder.jpg"
+				},
+				{
+					"id": "970001",
+					"title": "Reflections of 1497",
+					"media": "Acrylic on Birch",
+					"width": "48",
+					"height": "48",
+					"price": "sold",
+					"image": "images/1998images/ref2.jpg",
+					"thumb": "images/1998thumbs/threfl.jpg"
+				},
+				{
+					"id": "970002",
+					"title": "Creation - A Spirit Place",
+					"media": "Acrylic on Oak",
+					"width": "48",
+					"height": "48",
+					"price": "6,200",
+					"image": "images/1998images/spiritplace.jpg",
+					"thumb": "images/1998thumbs/thspirit.jpg"
+				},
+				{
+					"id": "970003",
+					"title": "From Four Corners We Come",
+					"media": "Acrylic on Birch",
+					"width": "48",
+					"height": "24",
+					"price": "3,700",
+					"image": "images/1998images/4corner.jpg",
+					"thumb": "images/1998thumbs/th4corner.jpg"
+				},
+				{
+					"id": "970004",
+					"title": "Tree of Life",
+					"media": "Acrylic on Birch",
+					"width": "24",
+					"height": "48",
+					"price": "3,700",
+					"image": "images/1998images/treelife.jpg",
+					"thumb": "images/1998thumbs/thtreelif.jpg"
+				},
+				{
+					"id": "970005",
+					"title": "Sky Totem",
+					"media": "Acrylic on Birch",
+					"width": "24",
+					"height": "48",
+					"price": "3,700 ",
+					"image": "images/1998images/skytotm.jpg",
+					"thumb": "images/1998thumbs/thskytot.jpg"
+				},
+				{
+					"id": "970006",
+					"title": "Nanaboozoo Breathing Life",
+					"media": "Acrylic on Pine",
+					"width": "30",
+					"height": "16",
+					"price": "sold",
+					"image": "images/1998images/nanab.jpg",
+					"thumb": "images/1998thumbs/thnanab.jpg"
+				},
+				{
+					"id": "970007",
+					"title": "Words Take Wing",
+					"media": "Acrylic on Oak",
+					"width": "24",
+					"height": "48",
+					"price": "sold",
+					"image": "images/1998images/wordswing.jpg",
+					"thumb": "images/1998thumbs/thwordswing.jpg"
+				},
+				{
+					"id": "970008",
+					"title": "Spirits Ingrained In Me (Self Portrait)",
+					"media": "Acrylic on Oak",
+					"width": "15",
+					"height": "17",
+					"price": "sold",
+					"image": "images/1998images/spiritsingrained.jpg",
+					"thumb": "images/1998thumbs/thspiritsingrained.jpg"
+				},
+				{
+					"id": "970009",
+					"title": "Mother Daughter Walk",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "48",
+					"price": "sold",
+					"image": "images/1998images/motherdaughter.jpg",
+					"thumb": "images/1998thumbs/thmotherdaughter.jpg"
+				}
+			]
+		},
+		{
+			"name": "1996 Sacred Way",
+			"year": "1996",
+			"id": "1996",
+			"painting": [
+				{
+					"id": "960000",
+					"title": "Ancestor Reach",
+					"media": "Acrylic on Pine",
+					"width": "48",
+					"height": "48",
+					"price": "sold",
+					"image": "images/1996images/ancestor.jpg",
+					"thumb": "images/1996thumbs/thancestor.jpg"
+				},
+				{
+					"id": "960001",
+					"title": "Seek The Self",
+					"media": "Acrylic on Pine",
+					"width": "36",
+					"height": "33",
+					"price": "sold",
+					"image": "images/1996images/seekself_000.jpg",
+					"thumb": "images/1996thumbs/thseekself.jpg"
+				},
+				{
+					"id": "960002",
+					"title": "Sun Dance",
+					"media": "Acrylic on fir",
+					"width": "24",
+					"height": "15",
+					"price": "sold",
+					"image": "images/1996images/sundance.jpg",
+					"thumb": "images/1996thumbs/thsundance.jpg"
+				},
+				{
+					"id": "960003",
+					"title": "Tree Spirit",
+					"media": "Acrylic on Fir",
+					"width": "24",
+					"height": "29",
+					"price": "sold",
+					"image": "images/1996images/treespirit.jpg",
+					"thumb": "images/1996thumbs/thtreespirit.jpg"
+				}
+			]
+		}
+	]
+}

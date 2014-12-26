@@ -1,0 +1,283 @@
+/* 
+// App Stylesheet
+// --------------
+*/
+
+// Import Bootstrap
+//@import "../../node_modules/bootstrap/less/bootstrap.less";
+@import "./thumbnail.less";
+@import "./painting.less";
+
+@-ms-viewport{
+  width: device-width;
+}
+
+// Give the navigation some padding
+.nav {
+	margin: 10px 0;
+	
+	// Style the active links
+	a.active {
+		font-weight: bold;
+		color: red;
+	}
+}
+
+@font-face {
+	font-family: 'QuicksandLight';
+	src: url('/fonts/Quicksand_Light-webfont.eot');
+	src: local('âº'), url('/fonts/Quicksand_Light-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*.null
+{
+	/*#221E1A;/*dark*/
+	/*#EEE;/*bright*/
+	/*#96D4C6;/*titles*/
+	/*#0ABFBC;/*hover*/
+/*}*/
+/****************************\
+|        MAIN STYLES         |
+\****************************/
+html, body 
+{
+	background-color:#181818;/*dark*/
+	color:#eeeeee;/*bright*/
+	background-attachment:fixed;
+	font:14px QuicksandLight, lighter Calibri, Sans-Serif;
+	margin:0px;
+	padding:0px;
+	height:100%;
+	min-height:100%;
+}
+
+body {
+	padding: 30px;
+}
+
+.logo {
+	text-align:right; 
+	float:right; 
+	margin:0px; 
+	border-style:none;
+	width:260px;
+	height:200px;
+}
+
+div.maindiv 
+{
+	width:871px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+	text-align:left;
+	border:0px;
+	max-width:871px;
+	height:100%;
+	min-height:100%;
+}
+
+div.navbar 
+{
+	top:0px;
+	margin:0px;
+	width:260px;
+	vertical-align:top;
+	padding:0px;
+	position:fixed;
+	float:left;
+	text-align:right;
+	height:100%;
+}
+
+div.content
+{
+	width: 600px;
+	max-width:600px;
+	margin:200px 0px 50px 260px;
+	border-top:solid 1px #debf6c;/*dark*/
+}
+
+.leftSubMainDiv
+{
+	position:fixed;
+	top:0px;
+	width:50px;
+	height:100%;
+	background:#181818;/*titles*/
+	padding:0px;
+	margin:0px 0px 0px 600px;
+}
+
+.rightSubMainDiv
+{
+	float:left;
+	max-width:540px;
+	margin:0px 0px 0px 30px;
+}
+
+.blurb
+{
+	text-align:justify; 
+	vertical-align:top;
+	margin:5px;
+	padding:0px;
+	font-size:10px;
+	clear:both;
+}
+
+.page
+{
+	color:inherit;
+	font:inherit;
+	padding:0px;
+	margin:10px 10px 10px 30px;
+	text-align:justify;
+}
+
+.section { text-align:justify; }
+
+p {  }
+
+.title
+{
+	margin:10px;
+	font: 30px 'QuicksandLight';
+	text-align:center;
+	color:#74A19B;/*titles*/
+}
+
+.subTitle
+{
+	margin:0px;
+	padding:30px 0px;
+	font: 20px 'QuicksandLight';
+	text-align:center;
+	color:#74A19B;/*titles*/
+	clear:both;
+}
+
+.quoteBlock
+{
+	padding:0px 20px; 
+	font-style:italic;
+}
+
+
+.opaque 
+{
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.transparent 
+{
+	opacity: .5;
+	filter: alpha(opacity=50);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+a:link, a:visited
+{
+	text-decoration:none;
+	color:#96D4C6;/*titles*/
+}
+
+a:hover, a:hover 
+{
+	text-decoration:none;
+	color:#74A19B;/*hover*/
+}
+
+.seriesList 
+{
+	margin:200px 0px 0px 0px;
+	padding:0px;
+	list-style:none;
+}
+
+.seriesList li { margin:0px; }
+
+.seriesList li a, .selectedSeries
+{
+	padding:7px 1px;
+	text-align:center;
+	display:block;
+	font: 13px 'QuicksandLight';
+	color:#96D4C6;/*bright*/
+}
+
+.seriesList li a:hover, .selectedSeries { background-color:#232323; }
+
+/****************************\
+|        MENU STYLES         |
+\****************************/
+.sideMenu 
+{	
+	margin:200px 0px 0px 0px;
+	padding:0px;
+	list-style:none;
+	border-top: solid 1px #debf6c;/*dark*/
+	border-bottom: solid 1px #debf6c;/*dark*/
+	clear:none;
+}
+
+.sideMenu li 
+{	
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+
+.sideMenu li a 
+{	
+	display:block;
+	margin:0px;
+	padding:7px 0px 0px 0px;
+	text-align:right;
+	vertical-align:middle;
+	width:auto;
+	color:#96D4C6;/*titles*/
+	font: 30px 'QuicksandLight';
+}
+
+.sideMenu li a:hover  
+{
+	color:#debf6c;/*hover*/
+	background: #232323;/*dark*/
+}
+
+.sideMenuDiv 
+{
+	position:absolute;
+	visibility:hidden;
+	margin:0px 260px;
+	padding:0px;
+	overflow:hidden;
+	z-index:1000;		
+}
+
+.sideMenu div a 
+{
+	background-color:#232323;/*dark*/
+	position:relative;
+	margin:0px;
+	padding:7px 5px 5px 10px;
+	font-size: 13px;
+	width:auto;
+	white-space:nowrap;
+	text-align:left;
+	color:#debf6c;/*titles*/
+	z-index:1000;
+}
+
+.sideMenu div a:hover  
+{
+	color:#EEE;/*bright*/
+	background: #74A19B;/*hover*/
+}
