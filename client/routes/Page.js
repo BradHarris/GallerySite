@@ -1,6 +1,7 @@
 var React = require('react'),
 	Router = require('react-router'),
-	jquery = require('jquery');
+	jquery = require('jquery'),
+	markdown = require('markdown').markdown;
 
 
 var Page = React.createClass({
@@ -8,22 +9,27 @@ var Page = React.createClass({
 	getInitialState: function() {
 		return { content: [] };
 	},
-	componentDidMount: function() {
-		var page = this.getParams().page;
+	getPageContent: function() {
+		var page = this.getParams().page || this.props.page;
 		if(page) {
 			jquery.get('/pages/' + page, function(content) {
-				this.setState({ content: content || '' });
+				if(content) {
+					content = markdown.toHTML(content);
+					this.setState({ content: content || '' });
+				}
 			}.bind(this));
 		}
 	},
+	componentDidMount: function() {
+		this.getPageContent();
+	},
+	componentWillReceiveProps: function() {
+		this.getPageContent();
+	},
 	render: function() {
-		var page = this.getParams().page;
 		return (
-			<div>
-				Page {page}
-				<div>
-					{this.state.content}
-				</div>
+			<div className='page'>
+				<div dangerouslySetInnerHTML={{__html: this.state.content}} />
 			</div>
 		);
 	}

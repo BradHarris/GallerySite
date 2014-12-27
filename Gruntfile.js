@@ -9,7 +9,7 @@ module.exports = function (grunt) {
 				interval: 500
 			},
 			scripts: {
-				files: ['client/**/*.js', 'public/styles/**/*'],
+				files: ['client/**/*.js', 'public/styles/**/*', 'public/pages/*'],
 			},
 			express: {
 				files:  [ 'server.js' ],

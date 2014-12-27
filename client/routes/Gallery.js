@@ -1,20 +1,24 @@
 var React = require('react'),
 	Router = require('react-router'),
-	jquery = require('jquery'),
-	ReactGallery = require('react-component-gallery');
+	ReactGallery = require('react-component-gallery'),
+	PaintingInfo = require('../components/PaintingInfo'),
+	slugify = require('slugify'),
+	$ = require('jquery'),
+	_ = require('lodash');
 
 var Thumb = React.createClass({
 	mixins: [ Router.State ],
 	render: function() {
 		var params = {
 			galleryId: this.getParams().galleryId,
-			paintingId: this.props.id
+			paintingId: this.props.slug
 		};
+
 		return (
-			<Router.Link to='painting' maintainScrollPosition={true} params={params}>
+			<Router.Link to='painting' params={params}>
 				<div className='thumbnail'>
 					<img src={'/' + this.props.thumb} />
-					<span>{this.props.title}</span>
+					<PaintingInfo {...this.props}/>
 				</div>
 			</Router.Link>
 		);
@@ -27,63 +31,78 @@ var Gallery = React.createClass({
 		return { galleries: [] };
 	},
 	componentDidMount: function() {
-		jquery.getJSON('/data/gallery.json', function(data) {
+		$.getJSON('/data/gallery.json', function(data) {
 			data = data || {};
-			this.setState({ galleries: data.Gallery || [] });
+			data = data.Gallery || [];
+
+			this.setState({ galleries: data });
 		}.bind(this));
 	},
 	render: function() {
 		var galleryId = this.getParams().galleryId;
-		var paintingId = this.getParams().paintingId;
-		var thumbnails = [];
-		var ids = {};
+		var paintingId = (this.getParams().paintingId || '').toLowerCase();
+		var paintings = [];
+		var slugs = {};
+
+		var SeriesLinks = [<Router.Link to="gallery" params={{galleryId: 'all' }}>All</Router.Link>];
+		var SeriesTitle = 'All Paintings';
+		var SeriesStatement = this.state.SeriesStatement || '';
+
+		for(var i = 0; i < this.state.galleries.length; i++) {
+			SeriesLinks.push(
+				<Router.Link to="gallery" params={{galleryId: this.state.galleries[i].id }}>{this.state.galleries[i].id}</Router.Link>
+			)
+		}
 
 		if(galleryId && galleryId !== 'all') {
-			for(var i = 0; i < this.state.galleries.length; i++) {
-				if(this.state.galleries[i].id === galleryId) {
-					thumbnails = this.state.galleries[i].painting;
-					for(var j = 0; j < this.state.galleries[i].painting.length; j++) {
-						var p = this.state.galleries[i].painting[j];
-						if(!ids[p.id]) {
-							ids[p.id] = p;
-						} else {
-							console.log(p);
-						}
-					}
-					break;
-				}
-			}
+			paintings = _.find(this.state.galleries, {id: galleryId}) || {};
+			paintings = paintings.painting || [];
 		} else {
 			for(var i = 0; i < this.state.galleries.length; i++) {
-				thumbnails = thumbnails.concat(this.state.galleries[i].painting);
-				for(var j = 0; j < this.state.galleries[i].painting.length; j++) {
-					var p = this.state.galleries[i].painting[j];
-					if(!ids[p.id]) {
-						ids[p.id] = p;
-					} else {
-						console.log(p);
-					}
-				}
+				paintings = paintings.concat(this.state.galleries[i].painting);
 			}
 		}
 
-		thumbnails = thumbnails.map(function(painting) {
-			return (
-				<Thumb key={painting.id} {...painting}/>
-			);
-		});
+		for(var i = 0; i < paintings.length; i++) {
+			if(paintings[i].title) {
+				paintings[i].slug = slugify(paintings[i].title.toString()).toLowerCase(); 
+			}
+		}
+
+		slugs = _.indexBy(paintings, 'slug');
 
 		if(paintingId) {
-			var painting = ids[paintingId];
+			paintings = paintings.map(function(painting) {
+				return (
+					<Thumb key={painting.slug} {...painting}/>
+				);
+			});
+		} else {
+			paintings = paintings.map(function(painting) {
+				return (
+					<Thumb key={painting.slug} {...painting}/>
+				);
+			});
+		}
+
+		if(paintingId) {
+			var painting = slugs[paintingId];
+
 		}
 
 		return (
-			<div>
-
+			<div className='gallery'>
 				<Router.RouteHandler {...painting}/>
-				<ReactGallery margin='30' widthHeightRatio='1' targetWidth='200'>
-					{thumbnails}
+				<div className='seriesLinks'>
+					{SeriesLinks}
+				</div>
+				<div className='seriesTitle'>
+					{SeriesTitle}
+				</div>
+				<ReactGallery margin='10' widthHeightRatio='1' targetWidth='200'>
+					{paintings}
 				</ReactGallery>
+				{SeriesStatement}
 			</div>
 		);
 	}

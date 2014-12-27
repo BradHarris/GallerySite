@@ -1,34 +1,49 @@
 .thumbnail {
-	background: #232323;/*dark*/
 	text-align: center;
 	overflow: hidden;
 	cursor: pointer;
-	
-	-moz-box-shadow: 1px 0px 15px #111;
-	-webkit-box-shadow: 1px 0px 15px #111;
-	box-shadow: 1px 0px 15px #111;
 
 	img {
 		width: 100%;
 	}
 
-	span {
-		color: #eeeeee;
+	.info {
 		position: absolute;
-		bottom: 0;
+		bottom: 0px;
 		width: 100%;
-		background: rgba(0,0,0,0.6);
-		bottom: 0;
-		left: 0;
-		line-height: 30px;
+		background: rgba(0,0,0,0.8);
+		bottom: 0px;
+		left: 0px;
 		height: 30px;
-		padding: 0 10px;
+		margin: 0px;
+
+		box-sizing: border-box;
+		-webkit-transition: height .3s; /* For Safari 3.1 to 6.0 */
+		transition: height .3s;
+	}
+
+	div {
+		margin:7px;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
 		color: white;
 		font-size: 14px;
 	}
 
-	&:hover {
+	.title {
+		font-size: 16px;
+		font-weight: bold;
+	}
 
+	&:hover {
+		.info {
+			height:100%;
+		}
+
+		div {
+			white-space: normal;
+		}
 	};
 }
 

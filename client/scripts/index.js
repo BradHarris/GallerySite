@@ -1,25 +1,68 @@
 var React = require('react'),
 	Router = require('react-router');
 
-var Header = React.createClass({
+var NavBar = React.createClass({
 	render: function() {
 		return (
-			<div className="page-header">
-				<h1>Lauralee K Harris</h1>
-			</div>
-		);
-	}
-});
+			<div className="navbar">
+				<span className='title'>Lauralee K Harris</span>
 
-var PageNav = React.createClass({
-	render: function() {
-		return (
-			<div className="nav nav-pills">
-				<Router.Link to="home">Home</Router.Link>
-				&nbsp; | &nbsp;
-				<Router.Link to="page" params={{page:'artiststatement'}}>Artist Statement</Router.Link>
-				&nbsp; | &nbsp;
-				<Router.Link to="gallery" params={{galleryId: 'all'}}>Gallery</Router.Link>
+				<span className='menu'>
+					<ul>
+						<li>
+							<Router.Link to="home">Home</Router.Link>
+						</li>
+						<li>
+							<Router.Link to="gallery" params={{galleryId: 'all'}}>Gallery</Router.Link>
+						</li>
+						<li>
+							<Router.Link to="page" params={{page:'artiststatement'}}>Artist</Router.Link>
+							<ul>
+								<li>
+									<Router.Link to="page" params={{page:'artiststatement'}}>Artist Statement</Router.Link>
+								</li>
+								<li>
+									<Router.Link to="page" params={{page:'artistbiography'}}>Bio</Router.Link>
+								</li>
+								<li>
+									<Router.Link to="pdf" params={{pdfId:'Resume.pdf'}}>CV & Exhibits</Router.Link>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<Router.Link to="page" params={{page:'reviews'}}>The Work</Router.Link>
+							<ul>
+								<li>
+									<Router.Link to="page" params={{page:'reviews'}}>News, Reviews, and Commentary</Router.Link>
+								</li>
+								<li>
+									<Router.Link to="page" params={{page:'students'}}>Students and Schools Who Have Studied My Work</Router.Link>
+								</li>
+								<li>
+									<Router.Link to="video" params={{videoId:'Resume.pdf'}}>Documentary - From the Spirit - Season III (earth magic media) - Part 1</Router.Link>
+								</li>
+								<li>
+									<Router.Link to="video" params={{videoId:'Resume.pdf'}}>Documentary - From the Spirit - Season III (earth magic media) - Part 2</Router.Link>
+								</li>
+								<li>
+									<Router.Link to="pdf" params={{pdfId:'Resume.pdf'}}>Fort Erie Peace Bridge Commission</Router.Link>
+								</li>
+								<li>
+									<Router.Link to="pdf" params={{pdfId:'Resume.pdf'}}>A Ceremony of Creating From the Creation of Life</Router.Link>
+								</li>
+								<li>
+									<Router.Link to="page" params={{page:'booksandprints'}}>Books and Prints</Router.Link>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href='http://www.guestbookcentral.com/guestbook.cfm?Guestbook=7584' target='_blank'>Guestbook</a>
+						</li>
+						<li>
+							<Router.Link to="page" params={{page:'links'}}>Links</Router.Link>
+						</li>
+					</ul>
+				</span>
 			</div>
 		);
 	}
@@ -28,9 +71,8 @@ var PageNav = React.createClass({
 var App = React.createClass({
 	render: function() {
 		return (
-			<div className="container">
-				<Header />
-				<PageNav />
+			<div>
+				<NavBar />
 				<Router.RouteHandler/>
 			</div>
 		);
@@ -43,20 +85,23 @@ var routes = {
 	Gallery: require('../routes/Gallery'),
 	Painting: require('../routes/Painting'),
 	Page: require('../routes/Page'),
-	Pdf: require('../routes/Pdf')
+	Pdf: require('../routes/Pdf'),
+	Video: require('../routes/Video')
 };
 
 var routes = (
 	<Router.Route name="app" path="/" handler={App}>
 		<Router.Route name="home" path="/" handler={routes.Home}/>
 
-		<Router.Route name="gallery" path="/gallery/:galleryId" handler={routes.Gallery}>
+		<Router.Route name="gallery" path="/gallery/:galleryId" handler={routes.Gallery} ignoreScrollBehavior>
 			<Router.Route name="painting" path=":paintingId" handler={routes.Painting}/>
 		</Router.Route>
 
 		<Router.Route name="page" path="/page/:page" handler={routes.Page}/>
 
 		<Router.Route name="pdf" path="/pdf/:pdfId" handler={routes.Pdf}/>
+
+		<Router.Route name="video" path="/video/:videoId" handler={routes.Video}/>
 
 		<Router.DefaultRoute handler={routes.Home}/>
 	</Router.Route>

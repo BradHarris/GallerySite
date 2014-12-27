@@ -1,12 +1,11 @@
 var React = require('react'),
-	Router = require('react-router');
+	Router = require('react-router'),
+	Page = require('./Page');
 
 var Home = React.createClass({
 	render: function() {
 		return (
-			<div>
-				Home page
-			</div>
+			<Page page='home'/>
 		);
 	}
 });

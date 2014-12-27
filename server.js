@@ -36,6 +36,13 @@ app.use('/js', browserify('./client/scripts', {
 	here before the catch-all route for index.html below.
 */
 
+app.get('poems/:poem', function(req, res) {
+	console.log(req.params('poem'));
+	// this route will respond to all requests with the contents of your index
+	// template. Doing this allows react-router to render the view in the app.
+    res.render('index.html');
+});
+
 app.get('*', function(req, res) {
 	// this route will respond to all requests with the contents of your index
 	// template. Doing this allows react-router to render the view in the app.
