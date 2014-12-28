@@ -1,7 +1,8 @@
 var React = require('react'),
 	Router = require('react-router'),
 	PaintingInfo = require('../components/PaintingInfo'),
-	$ = require('jquery');
+	$ = require('jquery'),
+	markdown = require('markdown').markdown;
 
 var ScrollLockMixin = {
 	scrollLock: function (elem) {
@@ -45,9 +46,10 @@ var Painting = React.createClass({
 		return { poem: '' };
 	},
 	componentDidMount: function() {
-		$.getJSON('/poems/' + this.props.title + '.txt', function(data) {
-			if(data) {
-				this.setState({ poem: data });
+		$.get('/poems/' + this.props.title + '.txt', function(poem) {
+			if(poem) {
+				poem = markdown.toHTML(poem);
+				this.setState({ poem: poem });
 			}
 		}.bind(this));
 

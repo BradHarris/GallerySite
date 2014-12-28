@@ -3,6 +3,7 @@ var express = require('express'),
 	reactify = require('reactify'),
 	less = require('less-middleware'),
 	nunjucks = require('nunjucks'),
+	fs = require('fs'),
 	config = require('./client/config');
 
 // initialise express
@@ -36,11 +37,17 @@ app.use('/js', browserify('./client/scripts', {
 	here before the catch-all route for index.html below.
 */
 
-app.get('poems/:poem', function(req, res) {
-	console.log(req.params('poem'));
-	// this route will respond to all requests with the contents of your index
-	// template. Doing this allows react-router to render the view in the app.
-    res.render('index.html');
+app.get('/poems/:poem', function(req, res) {
+
+	console.log(req.params.poem + ' - > ' + decodeURI(req.params.poem));
+	var filePath = __dirname + '/public/poems/' + decodeURI(req.params.poem);
+	if(fs.existsSync(filePath)) {
+		fs.readFile(filePath, function(err, data) {
+			res.status(200).send(data);
+		});
+	} else {
+		res.status(404).send('');
+	}
 });
 
 app.get('*', function(req, res) {
