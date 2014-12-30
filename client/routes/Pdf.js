@@ -1,12 +1,14 @@
 var React = require('react'),
-	Router = require('react-router');
+	Router = require('react-router'),
+	ContentFrame = require('../components/ContentFrame');
 
 var PDF = React.createClass({
 	mixins: [ Router.State ],
 	render: function() {
-		var pdfId = this.getParams().pdfId;
+		var pdfId = '/pdf/' + this.getParams().pdfId + '.pdf';
+
 		return (
-			<p>PDF {pdfId}</p>
+			<ContentFrame contentSrc={pdfId} />
 		);
 	}
 });

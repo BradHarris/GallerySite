@@ -25,7 +25,7 @@ var NavBar = React.createClass({
 									<Router.Link to="page" params={{page:'artistbiography'}}>Bio</Router.Link>
 								</li>
 								<li>
-									<Router.Link to="pdf" params={{pdfId:'Resume.pdf'}}>CV & Exhibits</Router.Link>
+									<Router.Link to="pdf" params={{pdfId:'Resume'}}>CV & Exhibits</Router.Link>
 								</li>
 							</ul>
 						</li>
@@ -45,10 +45,10 @@ var NavBar = React.createClass({
 									<Router.Link to="video" params={{videoId:'Resume.pdf'}}>Documentary - From the Spirit - Season III (earth magic media) - Part 2</Router.Link>
 								</li>
 								<li>
-									<Router.Link to="pdf" params={{pdfId:'Resume.pdf'}}>Fort Erie Peace Bridge Commission</Router.Link>
+									<Router.Link to="pdf" params={{pdfId:'forteriecommission'}}>Fort Erie Peace Bridge Commission</Router.Link>
 								</li>
 								<li>
-									<Router.Link to="pdf" params={{pdfId:'Resume.pdf'}}>A Ceremony of Creating From the Creation of Life</Router.Link>
+									<Router.Link to="pdf" params={{pdfId:'A Ceremony of Creating From the Creation of Life'}}>A Ceremony of Creating From the Creation of Life</Router.Link>
 								</li>
 								<li>
 									<Router.Link to="page" params={{page:'booksandprints'}}>Books and Prints</Router.Link>
@@ -71,7 +71,7 @@ var NavBar = React.createClass({
 var App = React.createClass({
 	render: function() {
 		return (
-			<div>
+			<div style={{'height' : '100%;'}}>
 				<NavBar />
 				<Router.RouteHandler/>
 			</div>
