@@ -27,6 +27,7 @@
 
 
 	.closeButton {
+		display: block;
 		position: absolute;
 		right: 5px;
 		top: 5px;
@@ -46,21 +47,39 @@
 		background: white;
 		color: #111111;
 		font-size: 15px;
+		font-weight: bold;
+		padding: 10px;
 
 		.title {
 			width: 100%;
 			font-weight: bold;
 			text-align: center;
-			font-size: 18px;
+			font-size: 25px;
+		}
+
+		.media {
+			display: inline-block;
+			float: left;
+		}
+
+		.size {
+			display: inline-block;
+			float: right;
+
+		}
+
+		.price {
+			display: block;
+			clear: both;
 		}
 	}
 
 	.poem {
-
 		background: white;
 		color: #111111;
 		font-size: 15px;
 		padding: 10px;
 		text-align: center;
+		font-weight: bold;
 	}
 }

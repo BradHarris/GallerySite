@@ -44,19 +44,20 @@ var Gallery = React.createClass({
 		var paintings = [];
 		var slugs = {};
 
-		var SeriesLinks = [<Router.Link to="gallery" params={{galleryId: 'all' }}>All</Router.Link>];
-		var SeriesTitle = 'All Paintings';
+		var SeriesLinks = [<Router.Link key='all' to="gallery" params={{galleryId: 'all' }}>All</Router.Link>];
 		var SeriesStatement = this.state.SeriesStatement || '';
 
 		for(var i = 0; i < this.state.galleries.length; i++) {
 			SeriesLinks.push(
-				<Router.Link to="gallery" params={{galleryId: this.state.galleries[i].id }}>{this.state.galleries[i].id}</Router.Link>
+				<Router.Link key={this.state.galleries[i].id} to="gallery" params={{galleryId: this.state.galleries[i].id }}>{this.state.galleries[i].id}</Router.Link>
 			)
 		}
 
+		var SeriesTitle = 'All Paintings';
 		if(galleryId && galleryId !== 'all') {
-			paintings = _.find(this.state.galleries, {id: galleryId}) || {};
-			paintings = paintings.painting || [];
+			var gallery = _.find(this.state.galleries, {id: galleryId}) || {};
+			paintings = gallery.painting || [];
+			SeriesTitle = gallery.name;
 		} else {
 			for(var i = 0; i < this.state.galleries.length; i++) {
 				paintings = paintings.concat(this.state.galleries[i].painting);
@@ -69,22 +70,13 @@ var Gallery = React.createClass({
 			}
 		}
 
+		var Thumbs = paintings.map(function(painting) {
+			return (
+				<Thumb key={painting.slug} {...painting}/>
+			);
+		});
+
 		slugs = _.indexBy(paintings, 'slug');
-
-		if(paintingId) {
-			paintings = paintings.map(function(painting) {
-				return (
-					<Thumb key={painting.slug} {...painting}/>
-				);
-			});
-		} else {
-			paintings = paintings.map(function(painting) {
-				return (
-					<Thumb key={painting.slug} {...painting}/>
-				);
-			});
-		}
-
 		if(paintingId) {
 			var painting = slugs[paintingId];
 
@@ -99,8 +91,8 @@ var Gallery = React.createClass({
 				<div className='seriesTitle'>
 					{SeriesTitle}
 				</div>
-				<ReactGallery margin='10' widthHeightRatio='1' targetWidth='200'>
-					{paintings}
+				<ReactGallery margin='10' widthHeightRatio='1' targetWidth='250'>
+					{Thumbs}
 				</ReactGallery>
 				{SeriesStatement}
 			</div>

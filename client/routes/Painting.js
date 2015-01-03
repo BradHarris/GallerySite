@@ -9,10 +9,12 @@ var ScrollLockMixin = {
 		elem = elem || this.getDOMNode();
 		this.scrollElem = elem
 		elem.addEventListener('wheel', this.onScrollHandler, false);
+		elem.addEventListener('onTouchMove', this.onScrollHandler, false);
 	},
 	scrollRelease: function (elem) {
 		elem = elem || this.scrollElem;
 		elem.removeEventListener('wheel', this.onScrollHandler, false);
+		elem.removeEventListener('onTouchMove', this.onScrollHandler, false);
 	},
 	onScrollHandler: function (e) {
 		var elem = this.scrollElem;
@@ -45,15 +47,22 @@ var Painting = React.createClass({
 	getInitialState: function() {
 		return { poem: '' };
 	},
+	getPoem: function() {
+		if(this.props.title) {
+			$.get('/poems/' + this.props.title + '.txt', function(poem) {
+				if(poem) {
+					poem = markdown.toHTML(poem);
+					this.setState({ poem: poem });
+				}
+			}.bind(this));
+		}
+	},
 	componentDidMount: function() {
-		$.get('/poems/' + this.props.title + '.txt', function(poem) {
-			if(poem) {
-				poem = markdown.toHTML(poem);
-				this.setState({ poem: poem });
-			}
-		}.bind(this));
-
+		this.getPoem();
 		this.scrollLock();
+	},
+	componentWillReceiveProps: function() {
+		this.getPoem();
 	},
 	componentWillUnmount: function () {
 		this.scrollRelease();
@@ -61,7 +70,7 @@ var Painting = React.createClass({
 	render: function() {
 		return (
 			<div className='painting'>
-				<Router.Link className='closeButton' to="gallery" params={{galleryId: this.getParams().galleryId}}>x</Router.Link>
+				<Router.Link className='closeButton icon-x' to="gallery" params={{galleryId: this.getParams().galleryId}}> </Router.Link>
 				
 				<div className='container'>
 					<img src={'/' + this.props.image} />

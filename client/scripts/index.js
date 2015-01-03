@@ -1,8 +1,36 @@
 var React = require('react'),
-	Router = require('react-router');
+	Router = require('react-router'),
+	$ = require('jquery');
 
 var NavBar = React.createClass({
+	getInitialState: function() {
+		return { galleries: [] };
+	},
+	componentDidMount: function() {
+		$.getJSON('/data/gallery.json', function(data) {
+			data = data || {};
+			data = data.Gallery || [];
+
+			this.setState({ galleries: data });
+		}.bind(this));
+	},
 	render: function() {
+
+		var SeriesLinks = [
+			<li key='all'>
+				<Router.Link to="gallery" params={{galleryId: 'all' }}>All</Router.Link>
+			</li>
+		];
+
+		for(var i = 0; i < this.state.galleries.length; i++) {
+			var label = this.state.galleries[i].id + ' - ' + this.state.galleries[i].name
+			SeriesLinks.push(
+				<li key={this.state.galleries[i].id}>
+					<Router.Link to="gallery" params={{galleryId: this.state.galleries[i].id }}>{label}</Router.Link>
+				</li>
+			)
+		}
+
 		return (
 			<div className="navbar">
 				<span className='title'>Lauralee K Harris</span>
@@ -13,7 +41,10 @@ var NavBar = React.createClass({
 							<Router.Link to="home">Home</Router.Link>
 						</li>
 						<li>
-							<Router.Link to="gallery" params={{galleryId: 'all'}}>Gallery</Router.Link>
+							<a href='#'>Gallery</a>
+							<ul>
+								{SeriesLinks}
+							</ul>
 						</li>
 						<li>
 							<Router.Link to="page" params={{page:'artiststatement'}}>Artist</Router.Link>
