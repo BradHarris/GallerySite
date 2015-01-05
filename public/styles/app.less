@@ -1,10 +1,3 @@
-/* 
-// App Stylesheet
-// --------------
-*/
-
-// Import Bootstrap
-//@import "../../node_modules/bootstrap/less/bootstrap.less";
 @import "./navbar.less";
 @import "./gallery.less";
 @import "./thumbnail.less";
@@ -16,66 +9,32 @@
   width: device-width;
 }
 
-// Give the navigation some padding
-.nav {
-	margin: 10px 0;
-	
-	// Style the active links
-	a.active {
-		font-weight: bold;
-		color: red;
-	}
-}
-
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
-@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
 
-@font-face {
-	font-family: 'QuicksandLight';
-	src: url('/fonts/Quicksand_Light-webfont.eot');
-	src: local('âº'), url('/fonts/Quicksand_Light-webfont.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-/*.null
-{
-	/*#221E1A;/*dark*/
-	/*#EEE;/*bright*/
-	/*#96D4C6;/*titles*/
-	/*#0ABFBC;/*hover*/
-/*}*/
-/****************************\
-|        MAIN STYLES         |
-\****************************/
 html, body 
 {
-	background-color:#0F0F0F;
-	color:#eeeeee;
-	background-attachment:fixed;
-	font:14px 'QuicksandLight', lighter Calibri, Sans-Serif;
-	margin:0px;
-	padding:0px;
-	height:100%;
-	min-height:100%;
+	background-color: #FFFFFF; //#1D1D1D;
+	color: #525252; //#D3D3D3;
+	background-attachment: fixed;
+	font: 14px 'Quicksand', lighter Calibri, Sans-Serif;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	min-height: 100%;
 }
 
 a:link, a:visited
 {
 	text-decoration:none;
-	color:#96D4C6;/*titles*/
+	color:#96D4C6;
 }
 
 a:hover, a:hover 
 {
 	text-decoration:none;
-	color:#74A19B;/*hover*/
-}
-
-blockquote {
-	padding: 0 15px;
-	color: #cccccc;
-	border-left: 4px solid #ddd;
+	color:#74A19B;
 }
 
 hr {
@@ -84,4 +43,21 @@ hr {
 	margin: 16px 0;
 	background-color: #e7e7e7;
 	border: 0 none;
+}
+
+.content {
+	position: absolute;
+	top: 41px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	overflow: auto;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
 }

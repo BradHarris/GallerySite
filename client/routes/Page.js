@@ -28,9 +28,7 @@ var Page = React.createClass({
 	},
 	render: function() {
 		return (
-			<div className='page'>
-				<div dangerouslySetInnerHTML={{__html: this.state.content}} />
-			</div>
+			<div className='page' dangerouslySetInnerHTML={{__html: this.state.content}} />
 		);
 	}
 });

@@ -51,7 +51,7 @@ var Painting = React.createClass({
 		if(this.props.title) {
 			$.get('/poems/' + this.props.title + '.txt', function(poem) {
 				if(poem) {
-					poem = markdown.toHTML(poem);
+					//poem = markdown.toHTML(poem);
 					this.setState({ poem: poem });
 				}
 			}.bind(this));
@@ -75,9 +75,7 @@ var Painting = React.createClass({
 				<div className='container'>
 					<img src={'/' + this.props.image} />
 					<PaintingInfo {...this.props}/>
-					<div className='poem'>
-						{this.state.poem}
-					</div>
+					<div className='poem' dangerouslySetInnerHTML={{__html: this.state.poem}} />
 				</div>
 			</div>
 		);

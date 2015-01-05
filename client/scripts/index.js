@@ -104,7 +104,9 @@ var App = React.createClass({
 		return (
 			<div style={{'height' : '100%;'}}>
 				<NavBar />
-				<Router.RouteHandler/>
+				<div className='content'>
+					<Router.RouteHandler/>
+				</div>
 			</div>
 		);
 	}
