@@ -112,34 +112,32 @@ var App = React.createClass({
 	}
 });
 
-var routes = {
-	Home: require('../routes/Home'),
-	About: require('../routes/About'),
-	Gallery: require('../routes/Gallery'),
-	Painting: require('../routes/Painting'),
-	Page: require('../routes/Page'),
-	Pdf: require('../routes/Pdf'),
-	Video: require('../routes/Video')
-};
+var Home = require('./routes/Home');
+var About = require('./routes/About');
+var Gallery = require('./routes/Gallery');
+var Painting = require('./routes/Painting');
+var Page = require('./routes/Page');
+var Pdf = require('./routes/Pdf');
+var Video = require('./routes/Video');
 
 var routes = (
 	<Router.Route name="app" path="/" handler={App}>
-		<Router.Route name="home" path="/" handler={routes.Home}/>
+		<Router.Route name="home" path="/" handler={Home}/>
 
-		<Router.Route name="gallery" path="/gallery/:galleryId" handler={routes.Gallery} ignoreScrollBehavior>
-			<Router.Route name="painting" path=":paintingId" handler={routes.Painting}/>
+		<Router.Route name="gallery" path="/gallery/:galleryId" handler={Gallery} ignoreScrollBehavior>
+			<Router.Route name="painting" path=":paintingId" handler={Painting}/>
 		</Router.Route>
 
-		<Router.Route name="page" path="/page/:page" handler={routes.Page}/>
+		<Router.Route name="page" path="/page/:page" handler={Page}/>
 
-		<Router.Route name="pdf" path="/pdf/:pdfId" handler={routes.Pdf}/>
+		<Router.Route name="pdf" path="/pdf/:pdfId" handler={Pdf}/>
 
-		<Router.Route name="video" path="/video/:videoId" handler={routes.Video}/>
+		<Router.Route name="video" path="/video/:videoId" handler={Video}/>
 
-		<Router.DefaultRoute handler={routes.Home}/>
+		<Router.DefaultRoute handler={Home}/>
 	</Router.Route>
 );
 
 Router.run(routes, Router.HistoryLocation, function (Handler) {
-	React.render(<Handler/>, document.body);
+	React.render(<Handler/>, document.getElementById('content'));
 });
