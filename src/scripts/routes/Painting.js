@@ -49,7 +49,7 @@ var Painting = React.createClass({
 	},
 	getPoem: function() {
 		if(this.props.title) {
-			$.get('/poems/' + this.props.title + '.txt', function(poem) {
+			$.get('/poems/' + this.props.title + '.md', function(poem) {
 				if(poem) {
 					//poem = markdown.toHTML(poem);
 					this.setState({ poem: poem });
@@ -70,7 +70,7 @@ var Painting = React.createClass({
 	render: function() {
 		return (
 			<div className='painting'>
-				<Router.Link className='closeButton icon-x' to="gallery" params={{galleryId: this.getParams().galleryId}}> </Router.Link>
+				<Router.Link className='closeButton' to="gallery" params={{galleryId: this.getParams().galleryId}}>×</Router.Link>
 				
 				<div className='container'>
 					<img src={'/' + this.props.image} />

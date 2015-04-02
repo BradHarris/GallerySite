@@ -3,17 +3,18 @@
 	height: 100%;
 	margin: 0px auto;
 	font-size: 18px;
-	font-family: 'Merriweather', serif;
 
 	h1, h2, h3 {
-		color: #BBBBBB;
+		font-family: serif;
+		color: #343434;
 		font-weight: 700;
-		font-family: 'Lato', lighter Calibri, Sans-Serif;
 	}
 
 	img {
 		max-width: 80%;
-		text-align: center;
+		left: 50%;
+		position: relative;
+		transform: translateX(-50%);
 	}
 
 	blockquote {
@@ -50,5 +51,9 @@
 @media all and (max-width: 800px) {
 	.page {
 		width: 95%;
+
+		img {
+			max-width: 100%;
+		}
 	}
 }

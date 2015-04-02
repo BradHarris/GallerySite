@@ -5,6 +5,11 @@
 @import "./components/page.less";
 @import "./components/icons.less";
 
+* {
+	box-sizing: border-box;
+	font-family: 'Quicksand', lighter Calibri, Sans-Serif;;
+}
+
 @-ms-viewport{
   width: device-width;
 }
@@ -15,10 +20,9 @@
 
 html, body 
 {
-	background-color: #FFFFFF; //#1D1D1D;
-	color: #525252; //#D3D3D3;
+	background-color: #FFFFFF;
+	color: #131313;
 	background-attachment: fixed;
-	font: 14px 'Quicksand', lighter Calibri, Sans-Serif;
 	margin: 0px;
 	padding: 0px;
 	height: 100%;
@@ -28,13 +32,13 @@ html, body
 a:link, a:visited
 {
 	text-decoration:none;
-	color:#96D4C6;
+	color: #96D4C6;
 }
 
 a:hover, a:hover 
 {
 	text-decoration:none;
-	color:#74A19B;
+	color: #74A19B;
 }
 
 hr {
@@ -55,6 +59,7 @@ hr {
 }
 
 iframe {
+	position: absolute;
 	width: 100%;
 	height: 100%;
 	border: 0px;
