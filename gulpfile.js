@@ -52,7 +52,6 @@ function watchBundle(target, name) {
 			}
 
 			doBundle(target, name)
-				.pipe(reload());
 		})
 }
 
@@ -120,7 +119,7 @@ gulp.task('dev', function() {
 	server();
 
 	gulp.watch(['src/styles/**/*.less'], buildLess);
-	gulp.watch(['public/*.html'], reload);
+	gulp.watch(['public/*.html', 'public/scripts/*.js'], reload);
 
 	buildLess();
 	buildScripts();
@@ -132,7 +131,7 @@ gulp.task('prod', function() {
 
 	buildLess();
 	buildScripts();
-	
+
 	server();
 });
 

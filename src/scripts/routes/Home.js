@@ -1,6 +1,6 @@
-var React = require('react'),
-	Router = require('react-router'),
-	Page = require('./Page');
+var React = require('react');
+var Router = require('react-router');
+var Page = require('./Page');
 
 var Home = React.createClass({
 	render: function() {

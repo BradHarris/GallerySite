@@ -12,7 +12,7 @@ var Page = React.createClass({
 	getPageContent: function() {
 		var page = this.getParams().page || this.props.page;
 		if(page) {
-			jquery.get('/pages/' + page, function(content) {
+			jquery.get('/pages/' + page + '.md', function(content) {
 				if(content) {
 					content = markdown.toHTML(content);
 					this.setState({ content: content || '' });
