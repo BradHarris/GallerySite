@@ -17,7 +17,7 @@ var Thumb = React.createClass({
 		return (
 			<Router.Link to='painting' params={params}>
 				<div className='thumbnail'>
-					<img src={'/' + this.props.thumb} />
+					<img src={'//lauraleekharris.com/' + this.props.thumb} />
 					<PaintingInfo {...this.props}/>
 				</div>
 			</Router.Link>

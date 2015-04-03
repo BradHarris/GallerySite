@@ -73,7 +73,7 @@ var Painting = React.createClass({
 				<Router.Link className='closeButton' to="gallery" params={{galleryId: this.getParams().galleryId}}>×</Router.Link>
 				
 				<div className='container'>
-					<img src={'/' + this.props.image} />
+					<img src={'//lauraleekharris.com/' + this.props.image} />
 					<PaintingInfo {...this.props}/>
 					<div className='poem' dangerouslySetInnerHTML={{__html: this.state.poem}} />
 				</div>

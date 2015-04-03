@@ -5,7 +5,7 @@ var React = require('react'),
 var PDF = React.createClass({
 	mixins: [ Router.State ],
 	render: function() {
-		var pdfId = '/pdf/' + this.getParams().pdfId + '.pdf';
+		var pdfId = '//lauraleekharris.com/pdf/' + this.getParams().pdfId + '.pdf';
 
 		return (
 			<ContentFrame contentSrc={pdfId} />
